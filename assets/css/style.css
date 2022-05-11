@@ -10,9 +10,36 @@ h2 {
     height: 100%;
   }
   
-  * {
-    font-family: "Monsterrat";
+  #logo {
+    font-family: Koulen, sans-serif;
+    float: left;
+    font-size: 280%;
+    letter-spacing: 3px;
+    color: #333333;
+  }
+
+  #menu, #logo {
+    line-height: 75px;
+}
+
+  .top-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+  #top-nav a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+  /* .active {
+    border-bottom: 1px solid #3a3a3a;
+} */
+
+  .top-nav {
+    font-family: Monsterrat, sans-serif;
     box-sizing: border-box;
+    text-transform: uppercase;
+    
   }
   
   .top-nav {
@@ -20,12 +47,12 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #00BAF0;
+    background-color: #c32c27;
     background: #fcfbfb;
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: rgb(118, 3, 3);
+    
+    color: #6a6a6a;
     height: 50px;
-    padding: 1em;
+    padding: 2em;
   }
   
   .menu {
@@ -39,6 +66,7 @@ h2 {
   .menu > li {
     margin: 0 1rem;
     overflow: hidden;
+    
   }
   
   .menu-button-container {
@@ -59,7 +87,7 @@ h2 {
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: rgb(98, 163, 254);
+    background-color: #6a6a6a;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -83,7 +111,7 @@ h2 {
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(48, 92, 235, 0);
+    background: rgba(2, 237, 57, 0);
   }
   
   #menu-toggle:checked + .menu-button-container .menu-button::after {
@@ -98,7 +126,7 @@ h2 {
     .menu {
       position: absolute;
       top: 0;
-      margin-top: 50px;
+      margin-top: 60px;
       left: 0;
       flex-direction: column;
       width: 100%;
@@ -113,19 +141,19 @@ h2 {
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
     #menu-toggle:checked ~ .menu li {
-      border: 1px solid #333;
-      height: 2.5em;
-      padding: 0.5em;
+      height: 2em;
+      padding: 0.8em;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
     .menu > li {
       display: flex;
       justify-content: center;
-      margin: 0;
+      margin: 0 auto;
       padding: 0.5em 0;
       width: 100%;
-      color: rgb(65, 63, 63);
-      background-color: #fcfbfb;
+      color: #3a3a3a;
+      background-color: rgba(252,251,251, .9)
+      ;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid rgb(250, 248, 248);
