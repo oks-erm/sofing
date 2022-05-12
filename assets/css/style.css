@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@300;400&family=Lato:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@300;400&family=Lato:wght@200;300;400&display=swap');
 
 * {
   margin: 0;
@@ -11,6 +11,7 @@
     font-family: Lato, sans-serif;
     font-weight: 300;
     text-align: center;
+    
   }
 
   h1, h2 {
@@ -32,7 +33,7 @@
     line-height: 75px;
 }
 
-  a {
+  a, button {
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
@@ -222,12 +223,13 @@ p {
 
 #ethos {
   background-color: #333333;
+  z-index: -1;
 }
 
 #ethos-container {
   display: flex;
   flex-direction: column;
-  padding: 2em;
+  padding: 2em 2em 4em 2em;
 }
 
 .ethos-box {
@@ -235,11 +237,96 @@ p {
 }
 
 .ethos-box h1 {
-  margin: 2em 1em 1.5em 1em;
+  margin: 3em 1em 1.5em 1em;
+  
 }
-
 
 button {
-  margin: 2em 0em 3em 0em;
+  margin: 3em 0em 3em 0em;
+  padding: 1em 6em 1em 6em;
+  color:#333333;
+  background-color: #c9cbc8;
+  border: 2px solid #000;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
+#training {
+  background-color: #fcfbfb;
+}
+
+#bootcamp {
+  /* display:flex;
+  flex-direction: column; */
+
+  position: relative;
+}
+
+#image-training {
+  width: 100%;
+  height: 350px;
+  background: url(../images/training.webp) no-repeat center top;
+  height: 400px;
+  background-size: contain;
+  z-index: 2;
+
+  position: relative;
+}
+
+#color-block {
+  width: 150px;
+  height: 400px;
+  background-color: #e06666;
+  
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+
+  z-index: 0;
+}
+
+#white-box {
+  font-size: 130%;
+  
+  width: 50%;
+  height: 50%;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+  background-color: #a6ceef;
+
+  bottom: 30px;
+  left: 30px;
+
+  position: absolute;
+  z-index: 3;
+}
+
+#white-box h2 {
+  font-size: 90%;
+  padding:5px;
+}
+
+#white-box h1 {
+  font-weight: bold;
+  text-transform: none;
+}
+
+#white-box a {
+font-size: 70%;
+text-decoration: underline;
+}
+
+
+
+
+.back-to-the-top {
+  place-self:end;
+  position: sticky;
+  bottom:30px;
+  margin-left:70%;
+  margin-top:100vh;
+  color: #a6ceef;
+  font-size: xxx-large;
+}
