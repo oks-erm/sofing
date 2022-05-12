@@ -260,6 +260,7 @@ button {
   flex-direction: column; */
 
   position: relative;
+  padding-bottom: 25%;
 }
 
 #image-training {
@@ -275,11 +276,11 @@ button {
 
 #color-block {
   width: 150px;
-  height: 400px;
+  height: 500px;
   background-color: #e06666;
   
   position: absolute;
-  bottom: 50px;
+  bottom: 20%;
   right: 0;
 
   z-index: 0;
@@ -288,35 +289,41 @@ button {
 #white-box {
   font-size: 130%;
   
-  width: 50%;
-  height: 50%;
-
-  padding-top: 40px;
-  padding-left: 10px;
-
+  width: 60%;
+  height: 40%;
+  line-height: 200%;
+  padding: 30px 15px 0px 15px;
   background-color: #a6ceef;
 
-  bottom: 30px;
-  left: 30px;
+
+  bottom: 5%;
+  left: 18%;
 
   position: absolute;
   z-index: 3;
 }
 
+/* .text-block {
+  margin: 0 auto;
+} */
+
 #white-box h2 {
-  font-size: 90%;
+  font-size: 95%;
   padding:5px;
 }
 
 #white-box h1 {
   font-weight: bold;
   text-transform: none;
+  padding: 5px;
 }
 
 #white-box a {
-font-size: 70%;
+font-size: 75%;
 text-decoration: underline;
 }
+
+
 
 
 
