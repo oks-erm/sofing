@@ -229,7 +229,9 @@ p {
 #ethos-container {
   display: flex;
   flex-direction: column;
-  padding: 2em 2em 4em 2em;
+  width:70%;
+  margin: 0 auto;
+  padding: 15% 0;
 }
 
 .ethos-box {
@@ -237,7 +239,7 @@ p {
 }
 
 .ethos-box h1 {
-  margin: 3em 1em 1.5em 1em;
+  margin: 0em 1em 1.5em 1em;
   
 }
 
