@@ -398,7 +398,7 @@ button {
   margin: 3em 0em 0em 0em;
   padding: 1em 6em 1em 6em;
   color:#333333;
-  background-color: #c9cbc8;
+  background-color: #a6ceef;
   border: 2px solid #000;
   letter-spacing: 2px;
   font-weight: 400;
@@ -523,7 +523,7 @@ text-decoration: underline;
       flex-direction: row;
       flex-wrap: wrap;
       gap: 15px;
-      margin: -20% 8% 0 8%;
+      margin: -20% 8% -15% 8%;
       justify-content: center;
     }
 
@@ -545,14 +545,30 @@ text-decoration: underline;
       font-size: 120%;
     }
 
-    /* .icon-and-heading {
-      margin-top: -5px;
-    } */
-
-    /* .ethos {
+    #black {
+      height: 150px;
+      width: 100%;
+      background-color: #333333;
       
-    } */
+      z-index: -2;
+    }
+
+    #ethos {
+      height: 670px;
+      display: flex;
+      align-items: baseline;
+    }
+
+    #ethos-container {
+      width:60%;
+      line-height: 200%;
+      margin-top: -3%;
+    }
   
+    #ethos-container h1 {
+      font-size: 200%;
+      line-height: 140%;
+    }
 } 
 
   
