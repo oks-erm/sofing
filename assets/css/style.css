@@ -30,6 +30,7 @@
     text-transform: uppercase;
   }
 
+  
   #menu, #logo, #main-menu {
     line-height: 75px;
 }
@@ -164,28 +165,6 @@
   transform: rotate(-405deg);
 }
 
-
-@media screen and (min-width: 768px) {
-  
-.menu-button-container {
-    display: none;
-  }
-
-  #main-menu {
-    display: flex;
-    flex-direction: row;
-    font-size: 110%;
-    letter-spacing: 1px;
-    
-  }
-    
-  #main-menu li { 
-    float: right;
-    list-style: none;
-    margin: 0 0 0 20px;
-  }
-  
-} 
 
 
 /* MENU START */
@@ -349,19 +328,22 @@
   flex-direction: column;
   row-gap: 10px;
   margin-top: -80px;
-
+  z-index: 2;
 }
 
 .card {
 background-color: #fcfbfb;
-text-align: center;
-padding: 20px;
+padding: 2em;
+z-index: 2;
+box-shadow: 2px 2px 4px #a4a3a3;
 }
 
+.card-text {
+margin: 0 auto;
+}
 
 .card h2 {
   font-weight: bold;
-  clear: both;
   margin-bottom: 5px;
 }
 
@@ -369,13 +351,13 @@ p {
   font-size: 130%;
   padding: 5px;
   letter-spacing: 1px;
-  margin: 0px 20px 0px 20px;
+  /* margin: 0px 20px 0px 20px; */
   
 }
 
 #ethos {
   background-color: #333333;
-  z-index: -1;
+  z-index: 0;
 }
 
 #ethos-container {
@@ -493,3 +475,53 @@ text-decoration: underline;
 }
 
 
+
+@media screen and (min-width: 768px) {
+  
+  .menu-button-container {
+      display: none;
+    }
+  
+    #main-menu {
+      display: flex;
+      flex-direction: row;
+      font-size: 110%;
+      letter-spacing: 1px;
+      
+    }
+      
+    #main-menu li { 
+      float: right;
+      list-style: none;
+      margin: 0 0 0 20px;
+    }
+
+    #hero-image {
+      height: 570px;
+    }
+
+    #cards-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: -20% 10% 0 10%;
+      justify-content: center;
+    }
+
+    .card {
+      width: 250px;
+      height: 200px;
+      
+    }
+
+    .card-text {
+      
+     
+    }
+/*     
+    .card h2 {
+      font-size: 120%;
+    } */
+  } 
+  
