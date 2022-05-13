@@ -312,7 +312,7 @@
   overflow: hidden;
   background-color: #f4dfc2;
   position: relative;
-  z-index: -1;
+  z-index: -2;
 }
 
 #hero-image {
@@ -334,7 +334,7 @@
 .card {
 background-color: #fcfbfb;
 padding: 2em;
-z-index: 2;
+z-index: 3;
 box-shadow: 2px 2px 4px #a4a3a3;
 }
 
@@ -523,15 +523,29 @@ text-decoration: underline;
     }
 
     .card {
+      display: flex;
       width: 240px;
       height: 200px;
-      
+      align-items: center;
     }
 
     .card i {
       display: block;
       font-size: 200%;
+      color: #a0a0a0;
       padding-bottom: 10px;
+    }
+  
+    .card p {
+      font-size: 120%;
+    }
+
+    /* .icon-and-heading {
+      margin-top: -5px;
+    } */
+
+    .ethos {
+      margin-top: -30px;
     }
   
 } 
