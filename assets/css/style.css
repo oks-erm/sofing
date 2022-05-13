@@ -369,8 +369,11 @@ p {
 }
 
 #ethos {
+  height: 700px;
   background-color: #333333;
   z-index: 0;
+  display: flex;
+  align-items: center;
 }
 
 #ethos-container {
@@ -379,6 +382,7 @@ p {
   width:70%;
   margin: 0 auto;
   padding: 15% 0;
+  align-items: center;
 }
 
 .ethos-box {
@@ -391,7 +395,7 @@ p {
 }
 
 button {
-  margin: 3em 0em 3em 0em;
+  margin: 3em 0em 0em 0em;
   padding: 1em 6em 1em 6em;
   color:#333333;
   background-color: #c9cbc8;
@@ -485,6 +489,7 @@ text-decoration: underline;
   margin-top:100vh;
   color: #a6ceef;
   font-size: xxx-large;
+  z-index: 99;
 }
 
 
@@ -544,9 +549,9 @@ text-decoration: underline;
       margin-top: -5px;
     } */
 
-    .ethos {
-      margin-top: -30px;
-    }
+    /* .ethos {
+      
+    } */
   
 } 
 
