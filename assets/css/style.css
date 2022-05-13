@@ -408,9 +408,12 @@ button {
   background-color: #fcfbfb;
 }
 
+
+
 #bootcamp {
-  /* display:flex;
-  flex-direction: column; */
+  display:flex;
+  flex-direction: row;
+  align-items: center;
 
   position: relative;
   padding-bottom: 25%;
@@ -422,7 +425,7 @@ button {
   background: url(../images/training.webp) no-repeat center top;
   height: 400px;
   background-size: contain;
-  z-index: 2;
+  z-index: 5;
 
   position: relative;
 }
@@ -431,11 +434,7 @@ button {
   width: 150px;
   height: 500px;
   background-color: #e06666;
-  
-  position: absolute;
-  bottom: 20%;
-  right: 0;
-
+  margin: 0 0 0 -20%;
   z-index: 0;
 }
 
@@ -453,12 +452,8 @@ button {
   left: 18%;
 
   position: absolute;
-  z-index: 3;
+  z-index: 6;
 }
-
-/* .text-block {
-  margin: 0 auto;
-} */
 
 #white-box h2 {
   font-size: 95%;
