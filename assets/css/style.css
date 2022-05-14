@@ -293,7 +293,7 @@ button {
   background-size: cover;
   z-index: 5;
   grid-area: 2/2/11/16;
-  align-self: stretch;
+  
 }
 
 .white-box {
@@ -421,9 +421,43 @@ h3 {
   color: white;
 }
 
+#signup {
+  background-color: #fcfbfb;
+  height: 100%;
+}
+
+.signup-container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(10, minmax(18.6px, 62px));
+  grid-template-columns: repeat(10, minmax(15px, 75px));
+
+}
+
+.stripe {
+  background-color: #e06666;
+  z-index: 1;
+  grid-area: 8/1/9/11;
+}
+
+.text-wrapper {
+background-color: #fcfbfb;
+border: 1px solid #494949;
+z-index: 7;
+grid-area: 6/3/10/9;
+padding: 2em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
 
 
-
+.signup-image {
+  background: url(../images/signup.jpg) no-repeat center center;
+  background-size: cover;
+  z-index: 3;
+  grid-area: 1/1/7/11;
+}
 
 footer {
   height: 150px;
