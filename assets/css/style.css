@@ -464,6 +464,7 @@ justify-content: center;
 
 footer {
   height: 150px;
+  background-color: #333333;
 }
 
 .social-networks {
@@ -478,7 +479,7 @@ footer {
   font-size: 150%;
   margin: 1%;
   padding: 5%;
-  color: #3a3a3a;
+  color: #ebeaea;
 }
 
 
