@@ -430,7 +430,7 @@ h3 {
   width: 100%;
   display: grid;
   grid-template-rows: repeat(10, minmax(18.6px, 62px));
-  grid-template-columns: repeat(10, minmax(15px, 75px));
+  grid-template-columns: 1fr repeat(8, minmax(15px, 50px)) 1fr;
 
 }
 
@@ -451,6 +451,9 @@ flex-direction: column;
 justify-content: center;
 }
 
+#signup button {
+  padding: 1em;
+}
 
 .signup-image {
   background: url(../images/signup.jpg) no-repeat center center;
