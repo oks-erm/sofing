@@ -474,7 +474,7 @@ text-decoration: underline;
 
 #activities {
   background-color: #e06666;
-  padding: 3em 1em;
+  padding: 4em 1em;
 }
 
 #activities-container {
@@ -493,25 +493,38 @@ text-decoration: underline;
 }
 
 #activities-text h1 {
-  font-size: 200%;
+  font-size: 300%;
   font-weight: bold;
-  
+  font-family: Koulen;
+  letter-spacing: 5px;
+  line-height: 130%;
+  margin-top: -0.2em;
 }
 
 .act-block {
   height: 41vh;
-  /* width: 100%; */
   background-color: #fcfbfb;
-  /* padding: 1em; */
+  padding: 1em;
 }
 
-.act-card-image {
-  background: url(../images/sofa-shopping.jpeg) no-repeat center center;
-  height: 225px;
+.act-card-image {  
+  height:225px;
   width: 225px;
-  background-size: contain;
+  background-size: contain !important;
   overflow: hidden;
   align-items: center;
+} 
+
+#activity-image-1 {
+  background: url(../images/sofa-shopping.jpeg) no-repeat center center;
+}
+
+#activity-image-2 {
+  background: url(../images/networking.jpeg) no-repeat center center;
+}
+
+#activity-image-3 {
+  background: url(../images/local-practice.webp) no-repeat center center;
 }
 
 h3 {
@@ -523,15 +536,23 @@ h3 {
 
 .act-block p {
   font-size: 120%;
-  padding-bottom: 1em;
+  padding-bottom: 0.8em;
   padding-top: 0;
 }
 
 .act-block a {
-  text-decoration: underline;
+  font-family: Lato;
+  box-shadow: inset 0 0 0 0 #e06666;
+  color: #e06666;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-
+.act-block a:hover {
+  box-shadow: inset 100px 0 0 0 #e06666;
+  color: white;
+}
 
 
 
