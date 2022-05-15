@@ -507,8 +507,6 @@ footer {
       display: flex;
       flex-direction: row;
       font-size: 110%;
-     
-      
     }
       
     #main-menu li { 
@@ -649,14 +647,22 @@ footer {
     height: 240px;
   }
 
-  .card-up {
+  .card-down {
     margin-top: 5em;
   }
 
-  .card-down {
+  .card-up {
     margin-bottom: 5em;
   }
 
+  #ethos-container {
+    width:55%;
+  }
+
+
+
+
+  
   .signup-container {
     grid-template-rows: repeat(10, minmax(15px, 50px));
     grid-template-columns: 1fr repeat(14, minmax(18.6px, 62px)) 1fr;
@@ -666,7 +672,7 @@ footer {
     grid-area: 4/1/7/6;
   }
   
-#stripe-2 {
+  #stripe-2 {
   background-color: #e06666;
   grid-area: 8/12/10/17;
 }
