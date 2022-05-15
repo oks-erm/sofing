@@ -31,8 +31,8 @@
   }
 
   
-  #menu, #logo, #main-menu {
-    line-height: 75px;
+  #menu, #main-menu {
+    line-height: 100px;
 }
 
   a, button {
@@ -170,9 +170,9 @@
 #top {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #f4dfc2;
-  position: relative;
+  /* position: relative; */
   z-index: -2;
 }
 
@@ -199,14 +199,6 @@ z-index: 3;
 box-shadow: 2px 2px 4px #a4a3a3;
 }
 
-.card-text {
-margin: 0 auto;
-}
-
-.icon-and-heading {
-  text-align: center;
-}
-
 .icon-and-heading h2 {
   display: inline-block;
 }
@@ -218,7 +210,7 @@ margin: 0 auto;
 
 .card h2 {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin: 5px 0;
 }
 
 p {
@@ -527,6 +519,7 @@ footer {
 
     #hero-image {
       height: 570px;
+      background-position: bottom;
     }
 
     #cards-container {
@@ -637,6 +630,25 @@ footer {
 } 
 
 @media screen and (min-width:992px) {
+  #top {
+    background-color: #333333;
+  }
+  
+  #hero-image {
+    height: 630px;
+    background: url(../images/hero-image-desktop.webp) no-repeat center center;
+    background-size: cover;
+  }
+
+  #cards-container {
+    margin: -20% 2% -15% 2%;
+  }
+
+  .card {
+    width: 162px;
+    height: 240px;
+  }
+
   .signup-container {
     grid-template-rows: repeat(10, minmax(15px, 50px));
     grid-template-columns: 1fr repeat(14, minmax(18.6px, 62px)) 1fr;
