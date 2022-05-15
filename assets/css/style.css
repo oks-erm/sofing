@@ -463,7 +463,7 @@ justify-content: center;
 }
 
 footer {
-  height: 150px;
+  height: 100px;
   background-color: #333333;
 }
 
@@ -477,21 +477,19 @@ footer {
 
 .social-networks i {
   font-size: 150%;
-  margin: 1%;
-  padding: 5%;
+  margin: 4%;
   color: #ebeaea;
 }
 
 
 .back-to-the-top {
-  place-self:end;
   position: sticky;
   bottom:30px;
-  margin-left:70%;
-  margin-top:100vh;
-  color: #a6ceef;
+  margin-left:80%;
+  color: rgba(166,206,239, .75);
   font-size: xxx-large;
   z-index: 99;
+  /* text-shadow: 2px 2px 4px #878585; */
 }
 
 
