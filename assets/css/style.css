@@ -635,18 +635,26 @@ footer {
   }
   
   #hero-image {
-    height: 630px;
+    height: 600px;
     background: url(../images/hero-image-desktop.webp) no-repeat center center;
     background-size: cover;
   }
 
   #cards-container {
-    margin: -20% 2% -15% 2%;
+    margin: -25% 2% -15% 2%;
   }
 
   .card {
     width: 162px;
     height: 240px;
+  }
+
+  .card-up {
+    margin-top: 5em;
+  }
+
+  .card-down {
+    margin-bottom: 5em;
   }
 
   .signup-container {
