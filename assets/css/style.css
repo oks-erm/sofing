@@ -11,7 +11,7 @@
     font-family: Lato, sans-serif;
     font-weight: 300;
     text-align: center;
-    
+    background-color: #fcfbfb;
   }
 
   h1, h2 {
@@ -272,8 +272,8 @@ button {
 #bootcamp-container {
   width:100%;
   display: grid;
-  grid-template-rows: repeat(12, minmax(15px, 50px));
-  grid-template-columns: 1fr repeat(14, minmax(18.6px, 62px)) 1fr;
+  grid-template-rows: repeat(12, minmax(18.6px, 62px));
+  grid-template-columns: 1fr repeat(14, minmax(15px, 50px)) 1fr;
   justify-content: baseline;
 }
 .black-overlap {
@@ -284,7 +284,7 @@ button {
 
 .color-block {
   background-color: #e06666;
-  grid-area: 1/1/12/16;
+  grid-area: 1/1/12/17;
 }
 
 
@@ -305,7 +305,7 @@ button {
   
   justify-content: center;
   z-index: 6;
-  grid-area: 8/4/13/14;
+  grid-area: 8/5/13/13;
   
 }
 
