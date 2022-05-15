@@ -665,6 +665,16 @@ footer {
     width: 40em;
   }
 
+  button:hover {
+    background-color: #fcfbfb;
+    border-top: 2px solid #a6ceef;
+    border-left: 2px solid #a6ceef;
+    border-bottom: 2px solid #e06666;
+    border-right: 2px solid #e06666;
+    font-size: 85%;
+
+  }
+
   .signup-container {
     grid-template-rows: repeat(10, minmax(15px, 50px));
     grid-template-columns: 1fr repeat(14, minmax(18.6px, 62px)) 1fr;
@@ -704,6 +714,31 @@ footer {
 @media screen and (min-width: 1200px) {
   #cards-container{
     gap:30px;
+  }
+
+  #ethos-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2em 0;
+    width: 60em;
+  }
+
+  .ethos-box {
+    color: #fcfbfb;
+    text-align: left;
+    padding: 0;
+    flex: 1;
+  }
+
+  .ethos-box p {
+    padding: 0;
+  }
+  
+  #ethos-container>.ethos-box>h1 {
+    font-size: 275%;
+    line-height: 135%;
+    padding: 0em 1.2em;
+    margin: 0 0 0 0;
   }
 
   .signup-container {
