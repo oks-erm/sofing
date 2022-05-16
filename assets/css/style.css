@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@300;400&family=Lato:wght@200;300;400&display=swap');
 
+:root {
+  --blue: #a6ceef;
+  --lightgray: #f0f0f0;
+  --coral: #e06666;
+  --dark: #333333;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +18,7 @@ body {
   font-family: Lato, sans-serif;
   font-weight: 300;
   text-align: center;
-  background-color: #fcfbfb;
+  background-color: var(--lightgray);
 }
 
 h1,
@@ -51,7 +58,7 @@ button {
 }
 
 .active {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid var(--dark);
 }
 
 
@@ -64,7 +71,7 @@ button {
   align-items: center;
   justify-content: space-between;
 
-  background: #fcfbfb;
+  background: var(--lightgray);
 
   color: #6a6a6a;
   height: 50px;
@@ -112,7 +119,7 @@ button {
   margin: 0 auto;
   padding: 0.5em 0;
   width: 100%;
-  color: #3a3a3a;
+  color: var(--dark);
   background-color: rgba(252, 251, 251, .9);
   margin: 0 1rem;
   overflow: hidden;
@@ -191,10 +198,9 @@ button {
 }
 
 .card {
-  background-color: #fcfbfb;
+  background-color: var(--lightgray);
   padding: 2em;
   z-index: 3;
-  box-shadow: 2px 2px 4px #a4a3a3;
 }
 
 .icon-and-heading h2 {
@@ -219,7 +225,7 @@ p {
 
 #ethos {
   height: 700px;
-  background-color: #333333;
+  background-color: var(--dark);
   z-index: 0;
   display: flex;
   align-items: center;
@@ -235,7 +241,7 @@ p {
 }
 
 .ethos-box {
-  color: #fcfbfb;
+  color: var(--lightgray);
 }
 
 .ethos-box h1 {
@@ -245,22 +251,16 @@ p {
 button {
   margin: 3em 0em 0em 0em;
   padding: 1em 6em 1em 6em;
-  color: #333333;
-  background-color: #a6ceef;
+  color: var(--dark);
+  background-color: var(--blue);
   border: 2px solid #000;
   letter-spacing: 2px;
   font-weight: 400;
 }
 
-button:hover {
-  background-color: #fcfbfb;
-  border-top: 2px solid #a6ceef;
-  border-bottom: 2px solid #e06666;
-  font-size: 85%;
-}
 
 #training {
-  background-color: #fcfbfb;
+  background-color: var(--lightgray);
   height: 100%;
   margin-bottom: 2em;
 }
@@ -275,13 +275,13 @@ button:hover {
 }
 
 .black-overlap {
-  background-color: #333333;
+  background-color: var(--dark);
   grid-area: 1/1/2/-1;
 }
 
 
 .color-block {
-  background-color: #e06666;
+  background-color: var(--coral);
   grid-area: 1/1/12/17;
 }
 
@@ -294,27 +294,26 @@ button:hover {
 
 }
 
-.white-box {
+.blue-box {
   line-height: 240%;
   padding: 2em;
-  background-color: #a6ceef;
+  background-color: var(--blue);
   display: flex;
   flex-direction: column;
 
   justify-content: center;
   z-index: 6;
   grid-area: 8/5/13/13;
-
 }
 
-.white-box h2 {
+.blue-box h2 {
   font-size: 120%;
   width: 100%;
   line-height: 150%;
   padding-bottom: 0.5em;
 }
 
-.white-box h1 {
+.blue-box h1 {
   width: 100%;
   font-family: Koulen;
   font-size: 200%;
@@ -322,23 +321,23 @@ button:hover {
   text-transform: none;
 }
 
-.white-box a {
+.blue-box a {
   text-decoration: underline;
   font-family: Lato;
-  box-shadow: inset 0 0 0 0 #fcfbfb;
-  color: #333333;
+  box-shadow: inset 0 0 0 0 var(--lightgray);
+  color: var(--dark);
   margin: 0 -.25rem;
   padding: 0 .1rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-.white-box a:hover {
-  box-shadow: inset 120px 0 0 0 #fcfbfb;
-  color: #333333;
+.blue-box a:hover {
+  box-shadow: inset 120px 0 0 0 var(--lightgray);
+  color: var(--dark);
 }
 
 #activities {
-  background-color: #e06666;
+  background-color: var(--coral);
   padding: 4em 1em;
 }
 
@@ -352,7 +351,7 @@ button:hover {
 }
 
 #activities-text {
-  color: #fcfbfb;
+  color: var(--lightgray);
   text-align: center;
   padding-bottom: 2em;
 }
@@ -369,7 +368,7 @@ button:hover {
 .act-block {
   height: 350px;
   width: 230px;
-  background-color: #fcfbfb;
+  background-color: #f8f8f8;
   padding: 1em;
 }
 
@@ -407,20 +406,20 @@ h3 {
 
 .act-block a {
   font-family: Lato;
-  box-shadow: inset 0 0 0 0 #e06666;
-  color: #e06666;
+  box-shadow: inset 0 0 0 0 var(--coral);
+  color: var(--coral);
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .act-block a:hover {
-  box-shadow: inset 100px 0 0 0 #e06666;
-  color: white;
+  box-shadow: inset 100px 0 0 0 var(--coral);
+  color: var(--lightgray);
 }
 
 #signup {
-  background-color: #fcfbfb;
+  background-color: var(--lightgray);
   height: 100%;
 }
 
@@ -432,21 +431,20 @@ h3 {
 }
 
 #stripe {
-  background-color: #e06666;
+  background-color: var(--coral);
   z-index: 1;
   grid-area: 8/1/9/11;
 }
 
 .text-wrapper {
-  background-color: #fcfbfb;
-  border: 1px solid #494949;
+  background-color: var(--lightgray);
+  border: 1px solid var(--dark);
   z-index: 7;
   grid-area: 5/3/10/9;
   padding: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 2px 2px 4px #848484;
 }
 
 .text-wrapper p {
@@ -468,7 +466,7 @@ h3 {
 
 footer {
   height: 100px;
-  background-color: #333333;
+  background-color: var(--dark);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -487,7 +485,7 @@ footer {
 
 .social-networks i {
   font-size: 150%;
-  color: #a6ceef;
+  color: var(--blue);
 }
 
 
@@ -498,10 +496,11 @@ footer {
   color: rgba(166, 206, 239, .75);
   font-size: xxx-large;
   z-index: 99;
-  /* text-shadow: 2px 2px 4px #878585; */
 }
 
-
+.shadow {
+  box-shadow: 2px 2px 4px #848484;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -517,12 +516,12 @@ footer {
     width: 80%;
   }  
 
-#menu-toggle~.menu li {
+  #menu-toggle~.menu li {
   height: 100%;
   justify-content: center;
   margin: 0 0 0 20px;
   line-height: 16px;
-}
+  }
 
   #hero-image {
     height: 570px;
@@ -559,7 +558,7 @@ footer {
   #black {
     height: 150px;
     width: 100%;
-    background-color: #333333;
+    background-color: var(--dark);
 
     z-index: -2;
   }
@@ -600,31 +599,31 @@ footer {
     grid-area: 2/3/12/15;
   }
 
-  .white-box {
+  .blue-box {
     line-height: 240%;
     padding: 2em;
     grid-area: 9/2/14/9;
   }
 
-  .white-box h2 {
+  .blue-box h2 {
     font-size: 130%;
   }
 
-  .white-box h1 {
+  .blue-box h1 {
     font-size: 200%;
   }
 
-  .white-box a {
-    box-shadow: inset 0 0 0 0 #fcfbfb;
-    color: #333333;
+  .bluee-box a {
+    box-shadow: inset 0 0 0 0 var(--lightgray);
+    color: var(--dark);
     margin: 0 -.25rem;
     padding: 0 .1rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
 
-  .white-box a:hover {
-    box-shadow: inset 120px 0 0 0 #fcfbfb;
-    color: #333333;
+  .blue-box a:hover {
+    box-shadow: inset 120px 0 0 0 var(--lightgray);
+    color: var(--dark);
   }
 
   .text-wrapper {
@@ -638,7 +637,7 @@ footer {
 }
 
   #top {
-    background-color: #333333;
+    background-color: var(--dark);
   }
 
   #hero-image {
@@ -672,6 +671,13 @@ footer {
     width: 40em;
   }
 
+  button:hover {
+    background-color: var(--lightgray);
+    border-top: 2px solid var(--blue);
+    border-bottom: 2px solid var(--coral);
+    font-size: 85%;
+  }
+
   .signup-container {
     grid-template-rows: repeat(10, minmax(15px, 50px));
     grid-template-columns: 1fr repeat(14, minmax(18.6px, 62px)) 1fr;
@@ -682,7 +688,7 @@ footer {
   }
 
   #stripe-2 {
-    background-color: #e06666;
+    background-color: var(--coral);
     grid-area: 8/12/10/17;
   }
 
@@ -721,14 +727,10 @@ footer {
   }
 
   .ethos-box {
-    color: #fcfbfb;
+    color: var(--lightgray);
     text-align: left;
     flex: 1;
     padding: 0 25px 0 25px;
-  }
-
-  .ethos-box p {
-    /* padding: 0 0 0 20px; */
   }
   
   #ethos-container>.ethos-box>h1 {
@@ -747,7 +749,7 @@ footer {
   }
 
   #stripe-2 {
-    background-color: #e06666;
+    background-color: var(--coral);
     grid-area: 8/12/10/18;
   }
 
