@@ -32,12 +32,11 @@ h2 {
 }
 
 
-#menu,
-#main-menu {
+#menu {
   line-height: 100px;
 }
 
-a,
+a, 
 button {
   text-decoration: none;
   color: inherit;
@@ -45,10 +44,6 @@ button {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   padding: 5px;
-}
-
-#main-menu {
-  display: none;
 }
 
 .top-nav a:hover {
@@ -59,13 +54,11 @@ button {
   border-bottom: 1px solid #3a3a3a;
 }
 
+
 .top-nav {
   font-family: Monsterrat, sans-serif;
   box-sizing: border-box;
   text-transform: uppercase;
-}
-
-.top-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -123,7 +116,7 @@ button {
   background-color: rgba(252, 251, 251, .9);
   margin: 0 1rem;
   overflow: hidden;
-  line-height: 32px;
+  line-height: 24px;
 }
 
 .menu>li:not(:last-child) {
@@ -257,6 +250,13 @@ button {
   border: 2px solid #000;
   letter-spacing: 2px;
   font-weight: 400;
+}
+
+button:hover {
+  background-color: #fcfbfb;
+  border-top: 2px solid #a6ceef;
+  border-bottom: 2px solid #e06666;
+  font-size: 85%;
 }
 
 #training {
@@ -509,17 +509,20 @@ footer {
     display: none;
   }
 
-  #main-menu {
+  .menu {
+    position: inherit;
     display: flex;
     flex-direction: row;
-    font-size: 110%;
-  }
+    margin: 0 -15px 0 0;
+    width: 80%;
+  }  
 
-  #main-menu li {
-    float: right;
-    list-style: none;
-    margin: 0 0 0 20px;
-  }
+#menu-toggle~.menu li {
+  height: 100%;
+  justify-content: center;
+  margin: 0 0 0 20px;
+  line-height: 16px;
+}
 
   #hero-image {
     height: 570px;
@@ -630,6 +633,10 @@ footer {
 }
 
 @media screen and (min-width:992px) {
+.menu {
+  width: 48em;
+}
+
   #top {
     background-color: #333333;
   }
@@ -663,16 +670,6 @@ footer {
 
   #ethos-container {
     width: 40em;
-  }
-
-  button:hover {
-    background-color: #fcfbfb;
-    border-top: 2px solid #a6ceef;
-    border-left: 2px solid #a6ceef;
-    border-bottom: 2px solid #e06666;
-    border-right: 2px solid #e06666;
-    font-size: 85%;
-
   }
 
   .signup-container {
