@@ -274,6 +274,7 @@ button {
   line-height: 240%;
   padding: 2em;
   background-color: var(--blue);
+  color: #515151;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -286,6 +287,7 @@ button {
   width: 100%;
   line-height: 150%;
   padding-bottom: 0.5em;
+  font-weight: bolder;
 }
 
 .blue-box h1 {
@@ -298,8 +300,8 @@ button {
 .blue-box a {
   text-decoration: underline;
   font-family: Lato;
-  color: var(--coral);
-  box-shadow: inset 0 0 0 0 var(--lightgray);
+  font-size: 105%;
+  box-shadow: inset 0 0 0 0 #515151;
   margin: 0 -.25rem;
   padding: 0 .1rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -451,9 +453,10 @@ footer {
 
 .back-to-the-top {
   position: sticky;
-  bottom: 30px;
-  margin-left: 80%;
-  color: rgba(166, 206, 239, .75);
+  bottom: 3vh;
+  margin-right: -85vw;
+  margin-top: 110vh;
+  color: rgba(166, 206, 239, .85);
   font-size: xxx-large;
   z-index: 99;
 }
@@ -612,18 +615,16 @@ footer {
 
   button:hover {
     background-color: var(--whitesmoke);
-    border-top: 2px solid var(--blue);
-    border-bottom: 2px solid var(--coral);
+    color: var(--coral);
     transform: scale(1.03);
   }
 
   .blue-box:hover {
     transform: scale(1.03);
-    background-color: var(--whitesmoke);
   }
 
   .blue-box a:hover {
-    box-shadow: inset 120px 0 0 0 var(--coral);
+    box-shadow: inset 120px 0 0 0 #515151;
     color: var(--whitesmoke);
   }
 
