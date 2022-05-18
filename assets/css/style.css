@@ -200,6 +200,7 @@ button {
 .card h2 {
   font-weight: bold;
   margin: 5px 0;
+  letter-spacing: 2px;
 }
 
 #ethos {
@@ -228,11 +229,12 @@ button {
 }
 
 button {
-  margin: 3em 0em 0em 0em;
-  padding: 1em 6em 1em 6em;
+  margin: 3em 0 0 0;
+  padding: 0.8em 5em;
   color: var(--dark);
   background-color: var(--blue);
   border: 2px solid #000;
+  font-size: 110%;
   letter-spacing: 2px;
   font-weight: bold;
 }
@@ -271,7 +273,7 @@ button {
 .blue-box {
   line-height: 240%;
   padding: 2em;
-  background-color: var(--whitesmoke);
+  background-color: var(--blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -412,7 +414,7 @@ h3 {
 }
 
 #signup button {
-  padding: 1em;
+  padding: 0.7em;
   margin: 0.5em 0;
 }
 
@@ -604,19 +606,20 @@ footer {
     width: 40em;
   }
 
+  button, .blue-box {
+    transition: transform .2s;
+  }
+
   button:hover {
     background-color: var(--whitesmoke);
     border-top: 2px solid var(--blue);
     border-bottom: 2px solid var(--coral);
-  }
-
-  .blue-box {
-    transition: transform .2s;
+    transform: scale(1.03);
   }
 
   .blue-box:hover {
     transform: scale(1.03);
-    background-color: #bdd9ef;
+    background-color: var(--whitesmoke);
   }
 
   .blue-box a:hover {
