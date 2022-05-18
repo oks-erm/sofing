@@ -2,9 +2,10 @@
 
 :root {
   --blue: #a6ceef;
-  --lightgray: #f0f0f0;
+  --lightgray: #efefef;
   --coral: #e06666;
   --dark: #333333;
+  --whitesmoke: #f8f8f8;
 }
 
 * {
@@ -14,7 +15,7 @@
 }
 
 body {
-  color: #6a6a6a;
+  color: #696969;
   font-family: Lato, sans-serif;
   font-weight: 300;
   text-align: center;
@@ -29,12 +30,19 @@ h2 {
   text-transform: uppercase;
 }
 
+p {
+  font-size: 130%;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
 #logo {
   font-family: Koulen, sans-serif;
   float: left;
   font-size: 280%;
   letter-spacing: 4px;
   font-weight: bold;
+  color: #6a6a6a;
 }
 
 a, 
@@ -85,7 +93,7 @@ button {
   align-items: center;
 }
 
-#menu-toggle~.menu li {
+#menu-switch~.menu li {
   height: 0;
   margin: 0;
   padding: 0;
@@ -93,7 +101,7 @@ button {
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-#menu-toggle:checked~.menu li {
+#menu-switch:checked~.menu li {
   height: 2em;
   padding: 0.8em;
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -111,7 +119,7 @@ button {
   line-height: 32px;
 }
 
-#menu-toggle {
+#menu-switch {
   display: none;
 }
 
@@ -137,16 +145,16 @@ button {
   margin-top: 8px;
 }
 
-#menu-toggle:checked+.menu-button-container .menu-button::before {
+#menu-switch:checked+.menu-button-container .menu-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
 
-#menu-toggle:checked+.menu-button-container .menu-button {
+#menu-switch:checked+.menu-button-container .menu-button {
   background: rgba(106, 106, 106, 0);
 }
 
-#menu-toggle:checked+.menu-button-container .menu-button::after {
+#menu-switch:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
@@ -175,7 +183,7 @@ button {
 }
 
 .card {
-  background-color: var(--lightgray);
+  background-color: #f2f2f2;
   padding: 2em;
   z-index: 3;
 }
@@ -192,12 +200,6 @@ button {
 .card h2 {
   font-weight: bold;
   margin: 5px 0;
-}
-
-p {
-  font-size: 130%;
-  padding: 5px;
-  letter-spacing: 1px;
 }
 
 #ethos {
@@ -232,7 +234,7 @@ button {
   background-color: var(--blue);
   border: 2px solid #000;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 #training {
@@ -269,7 +271,7 @@ button {
 .blue-box {
   line-height: 240%;
   padding: 2em;
-  background-color: var(--blue);
+  background-color: var(--whitesmoke);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -294,16 +296,11 @@ button {
 .blue-box a {
   text-decoration: underline;
   font-family: Lato;
+  color: var(--coral);
   box-shadow: inset 0 0 0 0 var(--lightgray);
-  color: var(--dark);
   margin: 0 -.25rem;
   padding: 0 .1rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-.blue-box a:hover {
-  box-shadow: inset 120px 0 0 0 var(--lightgray);
-  color: var(--dark);
 }
 
 #activities {
@@ -324,6 +321,8 @@ button {
   color: var(--lightgray);
   text-align: center;
   padding-bottom: 2em;
+  width:60%;
+  margin: 0 auto;
 }
 
 #activities-text h1 {
@@ -338,7 +337,7 @@ button {
 .act-block {
   height: 350px;
   width: 230px;
-  background-color: #f8f8f8;
+  background-color: var(--whitesmoke);
   padding: 1em;
 }
 
@@ -368,24 +367,19 @@ h3 {
   padding: 0.3em 0 0 0;
 }
 
-.act-block p {
+.act-block p, .text-wrapper p {
   font-size: 120%;
-  padding-bottom: 0.8em;
-  padding-top: 0;
+  padding: 0.3em 0 0.8em 0;
 }
 
 .act-block a {
   font-family: Lato;
+  text-decoration: underline;
   box-shadow: inset 0 0 0 0 var(--coral);
   color: var(--coral);
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-.act-block a:hover {
-  box-shadow: inset 100px 0 0 0 var(--coral);
-  color: var(--lightgray);
 }
 
 #signup {
@@ -407,7 +401,7 @@ h3 {
 }
 
 .text-wrapper {
-  background-color: var(--lightgray);
+  background-color: var(--whitesmoke);
   border: 1px solid var(--dark);
   z-index: 7;
   grid-area: 5/3/10/9;
@@ -415,11 +409,6 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.text-wrapper p {
-  font-size: 110%;
-  padding: 5% 0;
 }
 
 #signup button {
@@ -458,7 +447,6 @@ footer {
   color: var(--blue);
 }
 
-
 .back-to-the-top {
   position: sticky;
   bottom: 30px;
@@ -486,7 +474,7 @@ footer {
   width: 80%;
 }
 
-  #menu-toggle~.menu li {
+  #menu-switch~.menu li {
   height: 100%;
   justify-content:center;
   margin: 0 0 0 20px;
@@ -570,19 +558,6 @@ footer {
     grid-area: 9/2/14/9;
   }
 
-  .bluee-box a {
-    box-shadow: inset 0 0 0 0 var(--lightgray);
-    color: var(--dark);
-    margin: 0 -.25rem;
-    padding: 0 .1rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  }
-
-  .blue-box a:hover {
-    box-shadow: inset 120px 0 0 0 var(--lightgray);
-    color: var(--dark);
-  }
-
   .text-wrapper {
     grid-area: 5/2/10/10;
   }
@@ -630,9 +605,28 @@ footer {
   }
 
   button:hover {
-    background-color: var(--lightgray);
+    background-color: var(--whitesmoke);
     border-top: 2px solid var(--blue);
     border-bottom: 2px solid var(--coral);
+  }
+
+  .blue-box {
+    transition: transform .2s;
+  }
+
+  .blue-box:hover {
+    transform: scale(1.03);
+    background-color: #bdd9ef;
+  }
+
+  .blue-box a:hover {
+    box-shadow: inset 120px 0 0 0 var(--coral);
+    color: var(--whitesmoke);
+  }
+
+  .act-block a:hover {
+    box-shadow: inset 100px 0 0 0 var(--coral);
+    color: var(--whitesmoke);
   }
 
   .signup-container {
