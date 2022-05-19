@@ -170,12 +170,20 @@ button {
   z-index: -2;
 }
 
-#hero-image {
+.hero-image {
   height: 400px;
   width: 100%;
-  background: url(../images/hero-image-mobile.webp) no-repeat center center;
+  
   background-size: cover;
   z-index: -1;
+}
+
+#index-img {
+  background: url(../images/hero-image-mobile.webp) no-repeat center center;
+}
+
+#philosofy-img {
+  background: url(../images/philosofy4.jpg) no-repeat center center;
 }
 
 #cards-container {
@@ -469,33 +477,37 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: var(--dark);
+  height: 100%;
+  background-color: var(--dark); 
   color: var(--lightgray);
-  /* margin: 0 auto; */
   align-items: center;
 }
 
-#philosofy-image {
-  background: url() no-repeat center center;
-}
+/* #philosofy-image {
+  
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+} */
 
 #philosofy-container {
   display: flex;
   flex-direction: column;
   width: 70%;
   margin: 0 auto;
-  padding: 5% 0 10% 0;
+  padding: 3em 0;
   align-items: center;
 }
 
 .philosofy-box {
-  padding: 0 5%;
   line-height: 180%;
 }
 
 .philosofy-box h1 {
-font-size: 200%;
-padding: 5% 0;
+color: var(--blue);
+font-weight: bold;
+font-size: 300%;
+padding: 0.5em 0;
 }
 
 
@@ -520,7 +532,7 @@ padding: 5% 0;
   line-height: 25px;
   }
 
-  #hero-image {
+  .hero-image {
     height: 570px;
     background-position: bottom;
   }
@@ -612,8 +624,11 @@ padding: 5% 0;
     background-color: var(--dark);
   }
 
-  #hero-image {
+  .hero-image {
     height: 600px;
+  }
+
+  #index-img {
     background: url(../images/hero-image-desktop.webp) no-repeat center center;
     background-size: cover;
   }
@@ -639,7 +654,7 @@ padding: 5% 0;
     align-items: center;
   }
 
-  #ethos-container {
+  #ethos-container, #philosofy-container {
     width: 40em;
   }
 
@@ -754,7 +769,17 @@ padding: 5% 0;
   #philosofy-container {
     display: flex;
     flex-direction: row;
-    padding: 2em 2em;
-    width: 100%;
+    padding: 8em 4em;
+    width: 85%;
+    text-align: left;
+  }
+
+  .philosofy-box {
+    padding: 2em;
+  }
+
+  .philosofy-box h1{
+    font-size: 400%;
+    /* text-shadow: 1px 1px 2px var(--dark), 0 0 25px var(--lightgray), 0 0 5px var(--whitesmoke); */
   }
 }
