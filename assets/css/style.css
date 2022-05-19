@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@300;400&family=Lato:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Koulen&family=Montserrat:wght@300;400&family=Oswald:wght@200;300;400&display=swap');
 
 :root {
   --blue: #a6ceef;
@@ -20,6 +20,10 @@ body {
   font-weight: 300;
   text-align: center;
   background-color: var(--lightgray);
+}
+
+hr {
+  height: 30px;
 }
 
 h1,
@@ -159,7 +163,7 @@ button {
   transform: rotate(-405deg);
 }
 
-#top {
+.top {
   height: 100%;
   width: 100%;
   background-color: #f4dfc2;
@@ -297,7 +301,6 @@ button {
 
 .blue-box a {
   text-decoration: underline;
-  font-family: Lato;
   font-size: 105%;
   box-shadow: inset 0 0 0 0 var(--whitesmoke);
   margin: 0 -.25rem;
@@ -364,18 +367,17 @@ button {
 
 h3 {
   font-size: 140%;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   padding: 0.3em 0 0 0;
 }
 
 .act-block p, .text-wrapper p {
-  font-size: 120%;
+  font-size: 118%;
   padding: 0.3em 0 0.8em 0;
 }
 
 .act-block a {
-  font-family: Lato;
   text-decoration: underline;
   box-shadow: inset 0 0 0 0 var(--coral);
   color: var(--coral);
@@ -384,7 +386,7 @@ h3 {
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-#signup {
+.signup {
   background-color: var(--lightgray);
   height: 100%;
 }
@@ -413,7 +415,7 @@ h3 {
   justify-content: center;
 }
 
-#signup button {
+.signup button {
   padding: 0.7em;
   margin: 0.5em 0;
 }
@@ -427,7 +429,7 @@ h3 {
 
 footer {
   height: 100px;
-  background-color: var(--dark);
+  background-color: var(--coral);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -446,7 +448,7 @@ footer {
 
 .social-networks i {
   font-size: 150%;
-  color: var(--blue);
+  color: var(--lightgray);
 }
 
 .back-to-the-top {
@@ -462,6 +464,40 @@ footer {
 .shadow {
   box-shadow: 2px 2px 4px #848484;
 }
+
+#philosofy {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--dark);
+  color: var(--lightgray);
+  /* margin: 0 auto; */
+  align-items: center;
+}
+
+#philosofy-image {
+  background: url() no-repeat center center;
+}
+
+#philosofy-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5% 0 10% 0;
+  align-items: center;
+}
+
+.philosofy-box {
+  padding: 0 5%;
+  line-height: 180%;
+}
+
+.philosofy-box h1 {
+font-size: 200%;
+padding: 5% 0;
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -572,7 +608,7 @@ footer {
     margin-right: -35px;
   }
 
-  #top {
+  .top {
     background-color: var(--dark);
   }
 
@@ -715,4 +751,10 @@ footer {
     grid-area: 3/6/13/17;
   }
 
+  #philosofy-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2em 2em;
+    width: 100%;
+  }
 }
