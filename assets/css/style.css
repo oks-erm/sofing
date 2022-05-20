@@ -786,15 +786,19 @@ background: -webkit-linear-gradient( #a6ceef, #6a6a6a);
     padding: 8em 4em;
     width: 85%;
     text-align: left;
+    align-items: baseline;
   }
 
   .philosofy-box {
     padding: 2em;
+    flex: 1;
   }
 
   .philosofy-box h1{
     font-size: 400%;
   }
+
+  /*(C) https://codepen.io/run-time/pen/VNRBJd */
 
   .easter-egg {
     position: absolute;
