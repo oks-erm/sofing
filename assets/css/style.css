@@ -46,7 +46,13 @@ p {
   font-size: 280%;
   letter-spacing: 4px;
   font-weight: bold;
-  color: #6a6a6a;
+  /* color: #6a6a6a; */
+}
+
+.gradient {
+  background: -webkit-linear-gradient( #afd6e0, #6a6a6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a, 
@@ -60,6 +66,10 @@ button {
 
 .active {
   border-bottom: 1px solid var(--dark);
+}
+
+.zoom {
+
 }
 
 .top-nav {
@@ -184,6 +194,7 @@ button {
 
 #philosofy-img {
   background: url(../images/philosofy4.jpg) no-repeat center center;
+  background-color: #d77373;
 }
 
 #cards-container {
@@ -495,7 +506,7 @@ footer {
   flex-direction: column;
   width: 70%;
   margin: 0 auto;
-  padding: 3em 0;
+  padding: 7em 0;
   align-items: center;
 }
 
@@ -508,6 +519,9 @@ color: var(--blue);
 font-weight: bold;
 font-size: 300%;
 padding: 0.5em 0;
+background: -webkit-linear-gradient( #a6ceef, #6a6a6a);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 
@@ -658,7 +672,7 @@ padding: 0.5em 0;
     width: 40em;
   }
 
-  button, .blue-box {
+  button, .blue-box, .act-block, .text-wrapper {
     transition: transform .2s;
   }
 
@@ -668,7 +682,7 @@ padding: 0.5em 0;
     transform: scale(1.03);
   }
 
-  .blue-box:hover {
+  .blue-box:hover, .act-block:hover, .text-wrapper:hover {
     transform: scale(1.03);
   }
 
@@ -780,6 +794,9 @@ padding: 0.5em 0;
 
   .philosofy-box h1{
     font-size: 400%;
-    /* text-shadow: 1px 1px 2px var(--dark), 0 0 25px var(--lightgray), 0 0 5px var(--whitesmoke); */
+    /* background: -webkit-linear-gradient(#efefef, #6cb5f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
   }
 }
