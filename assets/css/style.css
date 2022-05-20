@@ -190,6 +190,7 @@ button {
 
 #index-img {
   background: url(../images/hero-image-mobile.webp) no-repeat center center;
+  background-color: var(--blue)
 }
 
 #philosofy-img {
@@ -363,6 +364,7 @@ button {
   width: 230px;
   background-color: var(--whitesmoke);
   padding: 1em;
+  align-self: center;
 }
 
 .act-card-image {
@@ -405,7 +407,7 @@ h3 {
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-.signup {
+.signup-section {
   background-color: var(--lightgray);
   height: 100%;
 }
@@ -434,13 +436,13 @@ h3 {
   justify-content: center;
 }
 
-.signup button {
+.signup-section button {
   padding: 0.7em;
   margin: 0.5em 0;
 }
 
 .signup-image {
-  background: url(../images/signup.jpg) no-repeat center bottom;
+  background: url(../images/signup-section.webp) no-repeat center bottom;
   background-size: cover;
   z-index: 3;
   grid-area: 1/1/7/11;
@@ -486,7 +488,6 @@ footer {
 
 #philosofy {
   display: flex;
-  flex-direction: column;
   width: 100%;
   height: 100%;
   background-color: var(--dark); 
@@ -494,20 +495,12 @@ footer {
   align-items: center;
 }
 
-/* #philosofy-image {
-  
-  height: 600px;
-  width: 100%;
-  background-size: cover;
-} */
-
 #philosofy-container {
   display: flex;
   flex-direction: column;
   width: 70%;
   margin: 0 auto;
   padding: 7em 0;
-  align-items: center;
 }
 
 .philosofy-box {
@@ -524,6 +517,41 @@ background: -webkit-linear-gradient( #a6ceef, #6a6a6a);
 -webkit-text-fill-color: transparent;
 }
 
+.signup {
+  background: url(../images/signup-form.jpg) no-repeat left center;
+  background-size: cover;
+  height: 900px;
+}
+
+.signup-form {
+  margin: 200px 10% 0 0;
+  color: var(--whitesmoke);
+  background-color: rgba(239,239,239, 0.75);
+  max-width: 350px;
+  position: absolute;
+  right: 0;
+  padding: 30px;
+}
+
+.signup-form > h2 {
+  color: var(--whitesmoke);
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  
+}
+
+.easter-egg {
+  opacity: 0;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -741,7 +769,7 @@ background: -webkit-linear-gradient( #a6ceef, #6a6a6a);
     display: flex;
     flex-direction: row;
     padding: 2em 0;
-    width: 60em;
+    max-width: 60em;
   }
 
   .ethos-box {
@@ -783,15 +811,17 @@ background: -webkit-linear-gradient( #a6ceef, #6a6a6a);
   #philosofy-container {
     display: flex;
     flex-direction: row;
-    padding: 8em 4em;
+    flex-wrap: wrap;
+    gap:3em;
     width: 85%;
     text-align: left;
-    align-items: baseline;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .philosofy-box {
-    padding: 2em;
-    flex: 1;
+    width: 24em;
+    line-height: 200%;
   }
 
   .philosofy-box h1{

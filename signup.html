@@ -19,44 +19,29 @@
       <label class='menu-button-container' for="menu-switch"><span class='menu-button'></span></label>
       <ul class="menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="philosofy.html" class="active">Philosofy</a></li>
+        <li><a href="philosofy.html">Philosofy</a></li>
         <li><a href="https://rebootcamp.net" target="_blank" rel="external" aria-label="Visit our Bootcamp website (opens in a new tab)">Training</a></li>
         <li><a href="meetups.html">Meetups</a></li>
-        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="signup.html" class="active">Sign up</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="top">
-     <div id="philosofy-img" class="hero-image"><span class="easter-egg bubble-bottom" aria-hidden="true">Get comfy, mate!</span></div>
-  </section>
-
-  <section id="philosofy">
-    <div id="philosofy-container">
-      <div class="philosofy-box">
-        <h1><i class="fa-solid fa-yin-yang"></i> 1</h1>
-         <p>Sofing is a way to beat routine, fight against daily mundane tasks... and all from the comfort of your couch!
-            Contemplative idleness and sharpened aesthetic consciousness free your mind and increase self-awareness. 
-            Even a few minutes session can help restore your calm and inner peace.</p>
-      </div><hr>
-    
-      <div class="philosofy-box">
-          <h1><i class="fa-solid fa-kit-medical"></i> 2</h1>
-          <p>Did you know that the most popular and benefitial yoga position is Shavassana? Sofing has improved it!
-            Combat fatugue and muscle stress, relieve back pain. Improve your body-awareness, reconnect with your 
-            physical self. Experience wholeness or just nap.  
-          </p>
-      </div><hr>
-     
-      <div class="philosofy-box">
-          <h1><i class="fas fa-smile-beam"></i> 3</h1>
-          <p>A cornestone of our philosofy is that there are no rules. There is no right or wrong. Forget that intimidating 
-            feeling "What if I can't do it right? What if I am not good enough?". Practicing Sofing you are always right, you are
-            always a winner. Pamper yourself and boost your self-esteem. Being the best made simple.
-          </p>
-        </div>
+  <section class="signup">
+    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+        <h2>Let's get you sofed up!</h2>
+        <label for="fname">First Name</label>
+        <input class="text-input" id="fname" name="first_name" type="text" required>
         
-    </div>
+        <label for="lname">Last Name</label>
+        <input class="text-input" id="lname" name="last_name" type="text" required>
+        
+        <label for="email">Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
+        
+        <input class="join-button" type="submit" value="Join!">
+    </form>
+
   </section>
 
   <footer>
