@@ -34,7 +34,7 @@ h2 {
   text-transform: uppercase;
 }
 
-p, label {
+p, label, td {
   font-size: 120%;
   padding: 5px;
   letter-spacing: 1px;
@@ -195,6 +195,11 @@ button, .join-button {
   background-color: #d77373;
 }
 
+#meetups-img {
+  background: url(../images/meetups3.jpg) no-repeat center center;
+  background-color: var(--blue)
+}
+
 #cards-container {
   display: flex;
   flex-direction: column;
@@ -310,7 +315,7 @@ button, .join-button {
   font-weight: bolder;
 }
 
-.blue-box h1 {
+.blue-box h1, #meetups h1 {
   width: 100%;
   font-family: Koulen;
   font-size: 200%;
@@ -381,7 +386,7 @@ button, .join-button {
 }
 
 #activity-image-3 {
-  background: url(../images/local-practice.webp) no-repeat center center;
+  background: url(../images/act1.jpg) no-repeat center center;
 }
 
 h3 {
@@ -391,7 +396,7 @@ h3 {
   padding: 0.3em 0 0 0;
 }
 
-.act-block p, .text-wrapper p {
+.act-block p, .text-wrapper p, th {
   font-size: 118%;
   padding: 0.3em 0 0.8em 0;
 }
@@ -495,14 +500,28 @@ footer {
 }
 
 .philosofy-img {
-  background: url(../images/networking.jpeg) no-repeat center center;
-  background-size: cover;
+ 
   width: 250px;
   height: 250px;
   justify-self: center;
   align-self: center;
   transform: rotate(15deg);
   z-index: 5;
+}
+
+#img-1 {
+  background: url(../images/philosofy5.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#img-2 {
+  background: url(../images/philosofy1.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#img-3 {
+  background: url(../images/act1.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 #philosofy-container {
@@ -527,8 +546,41 @@ background: -webkit-linear-gradient( #a6ceef, #6a6a6a);
 -webkit-background-clip: text;
 background-clip: text;
 -webkit-text-fill-color: transparent;
-
 }
+
+#meetups {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+table {
+  
+  padding: 3em 0;
+  line-height: 200%;
+  font-size: 90%;
+  
+}
+
+td, th {
+  background-color: var(--whitesmoke);
+  text-align: left;
+  padding: 5px;
+  border: 1px dotted #848484;
+}
+
+th {
+  font-size: 120%;
+}
+
+table a {
+  font-weight: inherit;
+  text-decoration: underline;
+  text-transform: none;
+}
+
 
 .signup {
   background: url(../images/signup-form.jpg) no-repeat left center;
@@ -550,7 +602,7 @@ background-clip: text;
   text-align: left;
 }
 
-.signup-form > h2 {
+.signup-form h2 {
   font-size: 190%;
   letter-spacing: 1px;
   font-weight: bold;
@@ -571,7 +623,6 @@ background-clip: text;
 
 .join-button {
   margin: 1em 0;
-  
 }
 
 .easter-egg {
