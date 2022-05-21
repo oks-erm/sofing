@@ -34,7 +34,9 @@ h2 {
   text-transform: uppercase;
 }
 
-p, label, td {
+p,
+label,
+td {
   font-size: 120%;
   padding: 5px;
   letter-spacing: 1px;
@@ -50,14 +52,15 @@ p, label, td {
 }
 
 .gradient {
-  background: -webkit-linear-gradient( #afd6e0, #6a6a6a);
+  background: -webkit-linear-gradient(#afd6e0, #6a6a6a);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-a, 
-button, .join-button {
+a,
+button,
+.join-button {
   font-family: Montserrat, sans-serif;
   color: inherit;
   font-weight: 400;
@@ -180,7 +183,7 @@ button, .join-button {
 .hero-image {
   height: 400px;
   width: 100%;
-  
+
   background-size: cover;
   z-index: -1;
 }
@@ -255,7 +258,8 @@ button, .join-button {
   margin: 0em 1em 1.5em 1em;
 }
 
-button, .join-button {
+button,
+.join-button {
   margin: 2em 0 0 0;
   padding: 0.6em 5em;
   color: var(--dark);
@@ -315,7 +319,9 @@ button, .join-button {
   font-weight: bolder;
 }
 
-.blue-box h1, #meetups h1 {
+.blue-box h1,
+#meetups h1,
+#philosofy h1 {
   width: 100%;
   font-family: Koulen;
   font-size: 200%;
@@ -349,7 +355,7 @@ button, .join-button {
   color: var(--lightgray);
   text-align: center;
   padding-bottom: 2em;
-  width:60%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -396,7 +402,9 @@ h3 {
   padding: 0.3em 0 0 0;
 }
 
-.act-block p, .text-wrapper p, th {
+.act-block p,
+.text-wrapper p,
+th {
   font-size: 118%;
   padding: 0.3em 0 0.8em 0;
 }
@@ -499,8 +507,11 @@ footer {
   align-self: center;
 }
 
+#philosofy {
+  padding: 4em 0;
+}
+
 .philosofy-img {
- 
   width: 250px;
   height: 250px;
   justify-self: center;
@@ -530,22 +541,22 @@ footer {
   /* grid-template-columns: repeat(2, minmax(125px,450px)); */
   gap: 2em;
   width: 80%;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .philosofy-text {
   line-height: 180%;
 }
 
-.philosofy-text h1 {
-color: var(--blue);
-font-weight: bold;
-font-size: 300%;
-padding: 0.5em 0;
-background: -webkit-linear-gradient( #a6ceef, #6a6a6a);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
+#philosofy h1 {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 300%;
+  padding: 0.5em 0;
+  background: -webkit-linear-gradient(#a6ceef, #6a6a6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #meetups {
@@ -553,18 +564,28 @@ background-clip: text;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4em;
+  padding: 5em 0;
+}
+
+#meetups h1 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 300%;
+  background: -webkit-linear-gradient(#f4715c, #6a6a6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 table {
-  
   padding: 3em 0;
   line-height: 200%;
   font-size: 90%;
-  
+
 }
 
-td, th {
+td,
+th {
   background-color: var(--whitesmoke);
   text-align: left;
   padding: 5px;
@@ -580,7 +601,6 @@ table a {
   text-decoration: underline;
   text-transform: none;
 }
-
 
 .signup {
   background: url(../images/signup-form.jpg) no-repeat left center;
@@ -610,7 +630,8 @@ table a {
   padding: 20px 0;
 }
 
-.text-input, select {
+.text-input,
+select {
   background: transparent;
   color: var(--dark);
   width: 100%;
@@ -618,7 +639,6 @@ table a {
   margin: 5px 0 20px 0;
   border: 2px solid #f8f8f8;
   border-radius: 3px;
- 
 }
 
 .join-button {
@@ -631,23 +651,23 @@ table a {
 
 @media screen and (min-width: 768px) {
 
-.menu-button-container {
-  display: none;
-}
+  .menu-button-container {
+    display: none;
+  }
 
-.menu {
-  position: inherit;
-  display: flex;
-  flex-direction: row;
-  margin: 0 -15px 0 0;
-  width: 80%;
-}
+  .menu {
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    margin: 0 -15px 0 0;
+    width: 80%;
+  }
 
   #menu-switch~.menu li {
-  height: 100%;
-  justify-content:center;
-  margin: 0 0 0 20px;
-  line-height: 25px;
+    height: 100%;
+    justify-content: center;
+    margin: 0 0 0 20px;
+    line-height: 25px;
   }
 
   .hero-image {
@@ -674,7 +694,7 @@ table a {
   .card i {
     display: block;
     font-size: 200%;
-    color: rgba(81,81,81, .6);
+    color: rgba(81, 81, 81, .6);
     padding-bottom: 10px;
   }
 
@@ -698,7 +718,8 @@ table a {
     line-height: 200%;
   }
 
-  #ethos-container h1, .blue-box h1 {
+  #ethos-container h1,
+  .blue-box h1 {
     font-size: 200%;
     line-height: 140%;
   }
@@ -732,7 +753,7 @@ table a {
   }
 
   #philosofy-container {
-    grid-template-columns: repeat(2, minmax(125px,450px));
+    grid-template-columns: repeat(2, minmax(125px, 450px));
     gap: 3em;
   }
 
@@ -742,6 +763,14 @@ table a {
 
   .text-order {
     grid-area: 2/2/2/2;
+  }
+
+  #meetups h1 {
+    letter-spacing: 3px;
+  }
+
+  #meetups p {
+    max-width: 30em;
   }
 }
 
@@ -789,7 +818,10 @@ table a {
     width: 40em;
   }
 
-  button, .blue-box, .act-block, .text-wrapper {
+  button,
+  .blue-box,
+  .act-block,
+  .text-wrapper {
     transition: transform .2s;
   }
 
@@ -799,7 +831,9 @@ table a {
     transform: scale(1.03);
   }
 
-  .blue-box:hover, .act-block:hover, .text-wrapper:hover {
+  .blue-box:hover,
+  .act-block:hover,
+  .text-wrapper:hover {
     transform: scale(1.03);
   }
 
@@ -855,14 +889,17 @@ table a {
     right: 0;
     padding: 30px;
   }
- 
 
+  td,
+  th {
+    padding: 0.5em 1em;
+  }
 }
 
 
 @media screen and (min-width: 1200px) {
-  #cards-container{
-    gap:30px;
+  #cards-container {
+    gap: 30px;
   }
 
   #ethos-container {
@@ -878,7 +915,7 @@ table a {
     flex: 1;
     padding: 0 25px 0 25px;
   }
-  
+
   #ethos-container>.ethos-box>h1 {
     font-size: 275%;
     line-height: 135%;
@@ -909,18 +946,18 @@ table a {
   }
 
   #philosofy-container {
-    grid-template-columns: repeat(2, minmax(125px,450px));
+    grid-template-columns: repeat(2, minmax(125px, 450px));
     gap: 4em;
     justify-content: center;
   }
 
- 
+
   /* .philosofy-box {
     width: 24em;
     line-height: 200%;
   } */
 
-  .philosofy-box h1{
+  .philosofy-box h1 {
     font-size: 400%;
   }
 
@@ -938,7 +975,7 @@ table a {
     color: var(--dark);
     opacity: 0;
   }
-  
+
   .bubble-bottom:before {
     content: "";
     width: 0px;
@@ -951,7 +988,7 @@ table a {
     left: 32px;
     bottom: -24px;
   }
-  
+
   .easter-egg:hover {
     opacity: 100%;
   }
