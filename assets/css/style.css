@@ -484,28 +484,41 @@ footer {
   box-shadow: 2px 2px 4px #848484;
 }
 
-#philosofy {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background-color: var(--dark); 
-  color: var(--lightgray);
-  align-items: center;
+.img-frame {
+  background-color: var(--coral);
+  width: 250px;
+  height: 250px;
+  transform: rotate(-10deg);
+  z-index: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+.philosofy-img {
+  background: url(../images/networking.jpeg) no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  justify-self: center;
+  align-self: center;
+  transform: rotate(15deg);
+  z-index: 5;
 }
 
 #philosofy-container {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
   margin: 0 auto;
-  padding: 7em 0;
+  display: grid;
+  /* grid-template-columns: repeat(2, minmax(125px,450px)); */
+  gap: 2em;
+  width: 80%;
+  padding: 5em 0;
 }
 
-.philosofy-box {
+.philosofy-text {
   line-height: 180%;
 }
 
-.philosofy-box h1 {
+.philosofy-text h1 {
 color: var(--blue);
 font-weight: bold;
 font-size: 300%;
@@ -666,6 +679,19 @@ background-clip: text;
   .text-wrapper {
     grid-area: 5/2/10/10;
   }
+
+  #philosofy-container {
+    grid-template-columns: repeat(2, minmax(125px,450px));
+    gap: 3em;
+  }
+
+  .img-order {
+    grid-area: 2/1/2/1;
+  }
+
+  .text-order {
+    grid-area: 2/2/2/2;
+  }
 }
 
 @media screen and (min-width:992px) {
@@ -708,7 +734,7 @@ background-clip: text;
     align-items: center;
   }
 
-  #ethos-container, #philosofy-container {
+  #ethos-container {
     width: 40em;
   }
 
@@ -839,20 +865,16 @@ background-clip: text;
   }
 
   #philosofy-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap:3em;
-    width: 85%;
-    text-align: left;
-    align-items: flex-start;
+    grid-template-columns: repeat(2, minmax(125px,450px));
+    gap: 4em;
     justify-content: center;
   }
 
-  .philosofy-box {
+ 
+  /* .philosofy-box {
     width: 24em;
     line-height: 200%;
-  }
+  } */
 
   .philosofy-box h1{
     font-size: 400%;
