@@ -29,7 +29,6 @@ hr {
 h1,
 h2 {
   font-family: Montserrat, sans-serif;
-  font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -335,7 +334,7 @@ button,
   font-weight: bold;
 }
 
-.blue-box a {
+.blue-box a, .act-block a {
   text-decoration: underline;
   font-size: 105%;
   box-shadow: inset 0 0 0 0 var(--whitesmoke);
@@ -402,7 +401,7 @@ button,
   background: url(../images/act2.jpg) no-repeat center center;
 }
 
-h3 {
+.act-block h2 {
   font-size: 140%;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -416,14 +415,14 @@ th {
   padding: 0.3em 0 0.8em 0;
 }
 
-.act-block a {
+/* .act-block a {
   text-decoration: underline;
   box-shadow: inset 0 0 0 0 var(--coral);
   color: var(--coral);
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
+} */
 
 .signup-section {
   background-color: var(--lightgray);
@@ -490,16 +489,6 @@ footer {
   color: var(--lightgray);
 }
 
-.back-to-the-top {
-  position: sticky;
-  bottom: 3vh;
-  margin-right: -85vw;
-  margin-top: 110vh;
-  color: rgba(166, 206, 239, .85);
-  font-size: xxx-large;
-  z-index: 99;
-}
-
 .shadow {
   box-shadow: 2px 2px 4px #848484;
 }
@@ -545,7 +534,6 @@ footer {
 #philosofy-container {
   margin: 0 auto;
   display: grid;
-  /* grid-template-columns: repeat(2, minmax(125px,450px)); */
   gap: 2em;
   width: 80%;
   padding: 2em 0;
@@ -588,7 +576,6 @@ table {
   padding: 3em 0;
   line-height: 200%;
   font-size: 90%;
-
 }
 
 td,
@@ -668,10 +655,6 @@ select {
   }
 
   .menu {
-    /* left: auto;
-    position: absolute;
-    right: 10%;
-    top: 23px; */
     position: relative;
     left: auto;
     top: auto;
@@ -854,7 +837,7 @@ select {
     transform: scale(1.03);
   }
 
-  .blue-box a:hover {
+  .blue-box a:hover, .act-block a:hover {
     box-shadow: inset 120px 0 0 0 var(--whitesmoke);
     color: #515151;
   }
@@ -968,12 +951,6 @@ select {
     gap: 4em;
     justify-content: center;
   }
-
-
-  /* .philosofy-box {
-    width: 24em;
-    line-height: 200%;
-  } */
 
   .philosofy-box h1 {
     font-size: 400%;
