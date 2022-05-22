@@ -44,11 +44,10 @@ td {
 
 #logo {
   font-family: Koulen, sans-serif;
-  float: left;
   font-size: 280%;
   letter-spacing: 4px;
   font-weight: bold;
-  /* color: #6a6a6a; */
+  padding-left: 3%;
 }
 
 .gradient {
@@ -63,7 +62,7 @@ button,
 .join-button {
   font-family: Montserrat, sans-serif;
   color: inherit;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -80,6 +79,7 @@ button,
   background: var(--lightgray);
   height: 64px;
   padding: 0 4%;
+  border-bottom: 2px solid #dfdfdf;
 }
 
 .top-nav a:hover {
@@ -103,8 +103,7 @@ button,
   margin-top: 60px;
   left: 0;
   flex-direction: column;
-  width: 100%;
-  /* justify-content: center; */
+  width: 97%;
   align-items: center;
 }
 
@@ -269,13 +268,13 @@ button,
 button,
 .join-button {
   margin: 2em 0 0 0;
-  padding: 0.8em 2.9em;
+  padding: 0.7em 2.9em;
   color: var(--dark);
   background-color: var(--blue);
   border: 2px solid #6a6a6a;
   font-size: 110%;
   letter-spacing: 2px;
-  font-weight: bold;
+  
 }
 
 #training {
@@ -663,11 +662,19 @@ select {
     display: none;
   }
 
+  .top-nav {
+    justify-content: space-around;
+    padding: 0;
+  }
+
   .menu {
-    left: auto;
+    /* left: auto;
     position: absolute;
     right: 10%;
-    top: 23px;
+    top: 23px; */
+    position: relative;
+    left: auto;
+    top: auto;
     display: flex;
     flex-direction: row;
     margin: 0 -15px 0 0;
@@ -787,8 +794,7 @@ select {
 
 @media screen and (min-width:992px) {
   .menu {
-    width: 48em;
-    right: 9%;
+    width: 46em;
   }
 
   .top {
@@ -909,9 +915,6 @@ select {
 
 
 @media screen and (min-width: 1200px) {
-.menu {
-  right:12%;
-}
 
   #cards-container {
     gap: 30px;
