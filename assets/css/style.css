@@ -479,10 +479,6 @@ footer {
   color: var(--lightgray);
 }
 
-.shadow {
-  box-shadow: 2px 2px 4px #848484;
-}
-
 #philosofy {
   padding: 3em 0;
 }
@@ -781,6 +777,10 @@ select {
     background: url(../images/signup.jpg) no-repeat left center;
     background-size: cover;
     height: 900px;
+  }
+
+  .shadow {
+    box-shadow: 2px 2px 4px #848484;
   }
 }
 
