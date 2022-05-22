@@ -836,15 +836,15 @@ select {
     transition: transform .2s;
   }
 
-  button:hover {
-    background-color: var(--whitesmoke);
-    color: var(--coral);
+  button:hover, .join-button:hover {
+    background-color: #bad9f4;
     transform: scale(1.03);
   }
 
   .blue-box:hover,
   .act-block:hover,
-  .text-wrapper:hover {
+  .text-wrapper:hover,
+  .join-button:hover {
     transform: scale(1.03);
   }
 
@@ -909,6 +909,10 @@ select {
 
 
 @media screen and (min-width: 1200px) {
+.menu {
+  right:12%;
+}
+
   #cards-container {
     gap: 30px;
   }
