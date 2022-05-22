@@ -195,7 +195,9 @@ button,
 
 #index-img {
   background: url(../images/hero-image-mobile.webp) no-repeat center center;
-  background-color: var(--blue)
+  background-color: var(--blue);
+  background-size: cover;
+  height: 500px;
 }
 
 #philosofy-img {
