@@ -94,6 +94,7 @@ button,
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 7%;
 }
 
 .menu {
@@ -103,7 +104,7 @@ button,
   left: 0;
   flex-direction: column;
   width: 100%;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -171,6 +172,13 @@ button,
 #menu-switch:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
 }
 
 .top {
@@ -261,7 +269,7 @@ button,
 button,
 .join-button {
   margin: 2em 0 0 0;
-  padding: 0.6em 5em;
+  padding: 0.8em 2.9em;
   color: var(--dark);
   background-color: var(--blue);
   border: 2px solid #6a6a6a;
@@ -656,11 +664,14 @@ select {
   }
 
   .menu {
-    position: inherit;
+    left: auto;
+    position: absolute;
+    right: 10%;
+    top: 23px;
     display: flex;
     flex-direction: row;
     margin: 0 -15px 0 0;
-    width: 80%;
+    width: 73%;
   }
 
   #menu-switch~.menu li {
@@ -777,7 +788,7 @@ select {
 @media screen and (min-width:992px) {
   .menu {
     width: 48em;
-    margin-right: -35px;
+    right: 9%;
   }
 
   .top {
@@ -906,7 +917,7 @@ select {
     display: flex;
     flex-direction: row;
     padding: 2em 0;
-    max-width: 60em;
+    width: 60em;
   }
 
   .ethos-box {
