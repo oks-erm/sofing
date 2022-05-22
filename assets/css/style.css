@@ -689,7 +689,7 @@ select {
   }
 
   #ethos {
-    height: 670px;
+    height: 620px;
   }
 
   #ethos-container {
@@ -799,7 +799,7 @@ select {
     padding: 0;
   }
 
-  .hero-image {
+  .hero-image, #index-img {
     height: 600px;
   }
 
@@ -913,6 +913,10 @@ select {
 
 
 @media screen and (min-width: 1200px) {
+
+  #index-img {
+    height: 750px;
+  }
 
   #cards-container {
     gap: 30px;
