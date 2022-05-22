@@ -177,6 +177,7 @@ button,
   top: 0;
   width: 100%;
   z-index: 99;
+  margin-bottom: 50px;
 }
 
 .top {
@@ -189,8 +190,6 @@ button,
 .hero-image {
   height: 400px;
   width: 100%;
-
-  background-size: cover;
   z-index: -1;
 }
 
@@ -200,13 +199,13 @@ button,
 }
 
 #philosofy-img {
-  background: url(../images/philosofy.jpg) no-repeat center center;
+  background: url(../images/philosofy-mobile.webp) no-repeat center center;
   background-color: #d77373;
 }
 
 #meetups-img {
-  background: url(../images/meetups.jpg) no-repeat center center;
-  background-color: var(--blue)
+  background: url(../images/meetups-mobile.jpg) no-repeat left center;
+  background-color: var(--blue);
 }
 
 #cards-container {
@@ -484,27 +483,18 @@ footer {
   box-shadow: 2px 2px 4px #848484;
 }
 
-.img-frame {
-  background-color: var(--coral);
-  width: 250px;
-  height: 250px;
-  transform: rotate(-10deg);
-  z-index: 1;
-  justify-self: center;
-  align-self: center;
+#philosofy {
+  padding: 3em 0;
 }
 
-#philosofy {
-  padding: 4em 0;
+.img-frame {
+justify-self: center;
+align-self: center;
 }
 
 .philosofy-img {
   width: 250px;
   height: 250px;
-  justify-self: center;
-  align-self: center;
-  transform: rotate(15deg);
-  z-index: 5;
 }
 
 #img-1 {
@@ -527,7 +517,7 @@ footer {
   display: grid;
   gap: 2em;
   width: 80%;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 .philosofy-text {
@@ -538,7 +528,7 @@ footer {
   color: var(--blue);
   font-weight: bold;
   font-size: 300%;
-  padding: 0.5em 0;
+  padding: 0.3em 0;
   background: -webkit-linear-gradient(#a6ceef, #6a6a6a);
   -webkit-background-clip: text;
   background-clip: text;
@@ -550,7 +540,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 #meetups h1 {
@@ -743,9 +733,28 @@ select {
     grid-area: 5/2/10/10;
   }
 
+  #philosofy-img {
+    background: url(../images/philosofy.webp) no-repeat center center;
+  }
+
   #philosofy-container {
     grid-template-columns: repeat(2, minmax(125px, 450px));
     gap: 3em;
+  }
+
+  .img-frame {
+    background-color: var(--coral);
+    width: 250px;
+    height: 250px;
+    transform: rotate(-10deg);
+    z-index: 1;
+  }
+  
+  .philosofy-img {
+    justify-self: center;
+    align-self: center;
+    transform: rotate(15deg);
+    z-index: 5;
   }
 
   .img-order {
@@ -754,6 +763,10 @@ select {
 
   .text-order {
     grid-area: 2/2/2/2;
+  }
+
+  #meetups-img {
+    background: url(../images/meetups.webp) no-repeat center center;
   }
 
   #meetups h1 {
@@ -778,6 +791,10 @@ select {
 
   .top {
     background-color: var(--dark);
+  }
+
+  #meetups-img {
+    padding: 0;
   }
 
   .hero-image {
