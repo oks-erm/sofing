@@ -201,12 +201,12 @@ button,
 }
 
 #philosofy-img {
-  background: url(../images/philosofy4.jpg) no-repeat center center;
+  background: url(../images/philosofy.jpg) no-repeat center center;
   background-color: #d77373;
 }
 
 #meetups-img {
-  background: url(../images/meetups3.jpg) no-repeat center center;
+  background: url(../images/meetups.jpg) no-repeat center center;
   background-color: var(--blue)
 }
 
@@ -391,15 +391,15 @@ button,
 }
 
 #activity-image-1 {
-  background: url(../images/sofa-shopping\ copy.jpg) no-repeat center center;
+  background: url(../images/act1.jpg) no-repeat center center;
 }
 
 #activity-image-2 {
-  background: url(../images/networking.jpg) no-repeat center center;
+  background: url(../images/act3.jpg) no-repeat center center;
 }
 
 #activity-image-3 {
-  background: url(../images/act1.jpg) no-repeat center center;
+  background: url(../images/act2.jpg) no-repeat center center;
 }
 
 h3 {
@@ -528,17 +528,17 @@ footer {
 }
 
 #img-1 {
-  background: url(../images/philosofy5.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-#img-2 {
   background: url(../images/philosofy1.jpg) no-repeat center center;
   background-size: cover;
 }
 
+#img-2 {
+  background: url(../images/philosofy2.jpg) no-repeat center center;
+  background-size: cover;
+}
+
 #img-3 {
-  background: url(../images/act1.jpg) no-repeat center center;
+  background: url(../images/philosofy3.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -610,7 +610,7 @@ table a {
 }
 
 .signup {
-  background: url(../images/signup-form.jpg) no-repeat left center;
+  background: url(../images/signup.jpg) no-repeat left center;
   background-size: cover;
   height: 900px;
   display: flex;
