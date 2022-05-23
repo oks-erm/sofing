@@ -718,7 +718,7 @@ select {
   }
 
 
-  
+
   .image-training {
     grid-area: 2/3/12/15;
   }
@@ -917,7 +917,7 @@ select {
 @media screen and (min-width: 1200px) {
 
   #index-img {
-    height: 850px;
+    height: 860px;
   }
 
   #cards-container {
