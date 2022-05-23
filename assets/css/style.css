@@ -917,7 +917,7 @@ select {
 @media screen and (min-width: 1200px) {
 
   #index-img {
-    height: 800px;
+    height: 750px;
   }
 
   #cards-container {
@@ -927,7 +927,7 @@ select {
   #ethos-container {
     display: flex;
     flex-direction: row;
-    padding: 2em 0;
+    padding: 3em 0 2em 0;
     width: 60em;
   }
 
