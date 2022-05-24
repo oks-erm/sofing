@@ -203,7 +203,7 @@ button,
 }
 
 #meetups-img {
-  background: url(../images/meetups-mobile.jpg) no-repeat left center;
+  background: url(../images/meetups-mobile.webp) no-repeat left center;
   background-color: var(--blue);
 }
 
@@ -388,15 +388,15 @@ button,
 }
 
 #activity-image-1 {
-  background: url(../images/act1.jpg) no-repeat center center;
+  background: url(../images/act1.webp) no-repeat center center;
 }
 
 #activity-image-2 {
-  background: url(../images/act3.jpg) no-repeat center center;
+  background: url(../images/act3.webp) no-repeat center center;
 }
 
 #activity-image-3 {
-  background: url(../images/act2.jpg) no-repeat center center;
+  background: url(../images/act2.webp) no-repeat center center;
 }
 
 .act-block h2 {
@@ -493,17 +493,17 @@ footer {
 }
 
 #img-1 {
-  background: url(../images/philosofy1.jpg) no-repeat center center;
+  background: url(../images/philosofy1.webp) no-repeat center center;
   background-size: cover;
 }
 
 #img-2 {
-  background: url(../images/philosofy2.jpg) no-repeat center center;
+  background: url(../images/philosofy2.webp) no-repeat center center;
   background-size: cover;
 }
 
 #img-3 {
-  background: url(../images/philosofy3.jpg) no-repeat center center;
+  background: url(../images/philosofy3.webp) no-repeat center center;
   background-size: cover;
 }
 
@@ -773,7 +773,7 @@ select {
   }
 
   .signup {
-    background: url(../images/signup.jpg) no-repeat left center;
+    background: url(../images/signup.webp) no-repeat left center;
     background-size: cover;
     height: 900px;
   }

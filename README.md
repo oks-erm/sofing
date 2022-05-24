@@ -1,5 +1,5 @@
 # SOFING Responsive Website
-![Website Mock Up](assets/images/mockup.png)
+![Website Mock Up](assets/images/readme/mockup.png)
 # Purpose
 This project is a static website aimed at popularizing a new sporting activity called [Sofing](https://oks-erm.github.io/sofing/index.html), which involves you and your couch. It hopes to give a chance to belong to everyone who wants to be a part of a community and have a trendy hobby with little commitment. 
 
@@ -91,29 +91,31 @@ As Sofing is a completely new thing, the design shapes future brand recognition.
 
 ### Colour Scheme
 
+![Palette](assets/images/readme/palette.png)
+
 A seemingly unconventional colour palette choice serves to embody a maverick component, mock existing cliches and challenge the rules (such as colour combination), just as Sofing does by turning doing nothing into a sport. 
 
 #### **Shades of Whitesmoke** 
 represent calm, air and light; two shades are used for volume effect.  
-> #efefef (Background Colour, Text Colour on dark background);
+> ![white1](assets/images/readme/white1.png) #efefef (Background Colour, Text Colour on dark background);
 
-> #f8f8f8 (Background Colour, Borders). 
+> ![white2](assets/images/readme/white2.png) #f8f8f8 (Background Colour, Borders). 
 
 #### **Shades of Charcoal Grey** 
 are cool, neutral and balanced, just like Sofing wants its practitioners to be. It is also known as a sophisticated colour. It is used to bring some contrast and draw attention to the ethos block on the home page. Several shades are used to avoid excessive contrast and heavy headings but provide accessibility. 
-> #333333 (Background Colour);
+> ![grey2](assets/images/readme/grey2.png) #333333 (Background Colour);
 
-> #515151 (Default Text Colour);
+> ![grey3](assets/images/readme/grey3.png) #515151 (Default Text Colour);
 
-> #6a6a6a (Headings, Borders).
+> ![grey1](assets/images/readme/grey1.png) #6a6a6a (Headings, Borders).
 
 #### **Coral** 
 represents friendliness, cheerfulness and boldness. Moreover, it seems to be one of the typical sofa colours and it refers to the [famous couch from Friends tv series](https://www.texomashomepage.com/wp-content/uploads/sites/41/2019/09/friends-orange-couch.jpg).
-> #e06666 (Background Colour).
+> ![coral](assets/images/readme/coral.png) #e06666 (Background Colour).
 
 #### **Reef**  
 represents trust and tranquillity. In fact, [57% of men and 35% of women say blue is their favourite colour](https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/03/24214633/website-color-palettes-35.png), it’s the most common “favourite” colour among the majority of the population. So, as I want to appeal to a broad audience, I decided to implement it.
-> #a6ceef (Background Colour, Buttons, Hover effects, Gradient for Logo and Headings).
+> ![reef](assets/images/readme/reef.png) #a6ceef (Background Colour, Buttons, Hover effects, Gradient for Logo and Headings).
 
 ### Typography
 
@@ -134,7 +136,7 @@ As the Home Page consists of multiple colourful overlapping blocks, it was impor
 
 
 #### Logo and Page Headings Gradient
-Sofing movement does not have a logo at the moment, for this reason, the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours. Thus, it was decided to implement a gradient of [Charcoal](#shades-of-charcoal-grey) and [Reef](#reef). A similar gradient was later applied to the Philosofy Page Heading and the Meetups Page Heading, but based on [Coral](#coral), to maintain the website colour palette.   
+Sofing movement does not have a logo at the moment, for this reason, the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours. Thus, it was decided to implement a gradient of [Charcoal](#shades-of-charcoal-grey) and [Reef](#reef). A similar gradient was later applied to the Philosofy Page Heading and the Meetups Page Heading, but based on [Coral](#coral), to maintain the colour palette.   
 
 #### Blocks with CTA
 Each block of the Home Page that we want users to interact with and that contains a Call To Action, such as "join the club" or "follow the link", slightly grows (3%) whilst hovered over with a mouse. It provides a stimulating visual effect and draws users' attention even if hovered over with a mouse by accident whilst scrolling. To provide better performance on mobile devices the effect was implemented only for screens larger than 992px.   
@@ -225,11 +227,11 @@ This page will allow user to sign up to Sofing and become a part of the communit
 
 ### Signup form processing
 
-Currently, on submission og the Sign Up form, the data goes to the form dump, so the input is not being processed or stored. With the knowlrdge of SQL and Python the input could be stored, processed, analised and used to provide the user with personalised quality experience.
+Currently, on submission of the Sign-Up form, the data goes to the form dump, so the input is not being processed or stored. With the knowledge of SQL and Python, the input could be stored, processed, analysed and used to provide the user with a personalised quality experience.
 
 ### Popup preview of Google Maps
 
-Currently, on Meetups page the location link leads the user to Google Maps. With includung JS we could provide the user with necessary information in a popup window without leaving the website.
+Currently, on the Meetups page, the location link leads the user to Google Maps. By including JS we could provide the user with the necessary information in a popup window without leaving the website.
 
 ### Gallery aggregated from social media by hashtag
 
