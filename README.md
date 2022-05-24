@@ -34,8 +34,8 @@ ___
 ## Structure
 ### Home Page
 - Introduces the movement and its "selling points" on the first screen.
-- Provides a full overview of the topic: each page of the website is represented by it's own block.
-- Catches user's attention and grips it with bold design and entertaining content.
+- Provides a full overview of the topic: each page of the website is represented by its own block.
+- Grabs user's attention and grips it with bold design and entertaining content.
     #### User Goal:
     >   - Understand the main purpose of the website.
     >   - Preview all the sections of the website.
@@ -49,7 +49,7 @@ ___
     >   - Initiate future engagement, such as following on social media, joining the club, attending meetups etc.
 
 ### Philosofy Page
-- Delivers the movement ethos and purpose in detail.
+- Delivers the movement's ethos and purpose in detail.
 - Justifies and redeems doing nothing.
 - Includes an easter egg for entertainment.
     #### User Goal:
@@ -73,18 +73,20 @@ ___
     >   - Make it easy for the user to find one and contact local representatives.
 
 ### Signup Page
-- Allows the user to join the club and get access to special programms and discounts.
+- Allows the user to join the club and get access to special programs and discounts.
     #### User Goal:
     >   - Join the club to access unique content and special offers.
     #### Website Goal:
-    >   - Provide simple and accesible way to join the club.
+    >   - Provide a simple and accessible way to join the club.
 
 ### Meetups 
-It was decided to take this section to the separate web-site (supposedly existing), because it is intended as a commercial project and contains plenty of information, which deserves a separate platform. However it was considered reasonable including it in the menu to inform about it, because the movement in new and users can not assume what features it includes. So it takes the user to the website of **Sofing Bootcamp** where the user may obtain all the relevant information about training. 
+It was decided to take this section to another website (supposedly existing) because it is intended as a commercial project and contains plenty of information, which deserves a separate platform. However, it was considered reasonable to include it in the menu to inform about it because the movement is new, and users can not assume what features it includes. So it takes the user to the website of **Sofing Bootcamp**, where the user may obtain all the relevant information about training. 
+___
+## Wireframes
 ___
 ## Design
 
-As Sofing is a completely new thing, the design shapes future brand recognition. The project's design springs from the ethos and values of Sofing: it is cheerful, bold and calm at the same time. It seems to be contrasting purposes, but it is a conscious intention to make it a little contradictory for comical effect, as a part of mocking existing cliches. It is somewhat a combination of a stereotypical small business, gym and furniture store website, as I see it. 
+As Sofing is a completely new thing, the design shapes future brand recognition. The project's design springs from the ethos and values of Sofing: it is cheerful, bold and calm at the same time. It seems to be contrasting purposes, but it is a conscious intention to make it a little contradictory for comical effect as a part of mocking existing cliches. It is somewhat a combination of a stereotypical small business, gym and furniture store website as I see it. 
 
 
 ### Colour Scheme
@@ -93,55 +95,150 @@ A seemingly unconventional colour palette choice serves to embody a maverick com
 
 #### **Shades of Whitesmoke** 
 represent calm, air and light; two shades are used for volume effect.  
-> #efefef (Background Colour, Text Colour on dark background).
+> #efefef (Background Colour, Text Colour on dark background);
 
 > #f8f8f8 (Background Colour, Borders). 
 
 #### **Shades of Charcoal Grey** 
-are cool, neutral and balanced, just like Sofing wants its practitioners be. It is also known as a sophisicated colour. It is used to bring some contrast and draw attention to the ethos block on the home page. Several shades are used in order to avoid excessive contrast and heavy headings but provide accessibility. 
-#333333 (Background Colour)
-#515151 (Default Text Colour)
-#6a6a6a (Headings, Borders)
+are cool, neutral and balanced, just like Sofing wants its practitioners to be. It is also known as a sophisticated colour. It is used to bring some contrast and draw attention to the ethos block on the home page. Several shades are used to avoid excessive contrast and heavy headings but provide accessibility. 
+> #333333 (Background Colour);
+
+> #515151 (Default Text Colour);
+
+> #6a6a6a (Headings, Borders).
 
 #### **Coral** 
-represents friendliness, cheerfullness and boldness. Moreover, it seems to be one of the typical sofa colours and it refers to the [famous couch from Friends tv series](https://www.texomashomepage.com/wp-content/uploads/sites/41/2019/09/friends-orange-couch.jpg).
-#e06666 (Background Colour)
+represents friendliness, cheerfulness and boldness. Moreover, it seems to be one of the typical sofa colours and it refers to the [famous couch from Friends tv series](https://www.texomashomepage.com/wp-content/uploads/sites/41/2019/09/friends-orange-couch.jpg).
+> #e06666 (Background Colour).
 
 #### **Reef**  
-represents trust and tranquility. In fact, [57% of men and 35% of women say blue is their favorite color](https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/03/24214633/website-color-palettes-35.png), it’s the most common “favourite” color among the majority of the population. So, as I want to appeal to a broad audience, I decided to implement it.
-#a6ceef (Background Colour, Buttons, Hover effects, Gradient for Logo and Headings)
+represents trust and tranquillity. In fact, [57% of men and 35% of women say blue is their favourite colour](https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/03/24214633/website-color-palettes-35.png), it’s the most common “favourite” colour among the majority of the population. So, as I want to appeal to a broad audience, I decided to implement it.
+> #a6ceef (Background Colour, Buttons, Hover effects, Gradient for Logo and Headings).
 
 ### Typography
 
-[Koulen](https://fonts.google.com/specimen/Koulen) was intended to be used for logo and headings, however it turned out to be too loud and intense if used for all headings, also it compromised legibility of many headings. Therefore, it was decided to limit its implementation and prefer softer and more neutral font for most of the headings throughout the website.
+[Koulen](https://fonts.google.com/specimen/Koulen) was intended to be used for logo and headings, however, it turned out to be too loud and intense if used for all headings, and also it compromised the legibility of many headings. Therefore, it was decided to limit its implementation and prefer softer and more neutral font for most of the headings throughout the website.
 
-[Montserrat](https://fonts.google.com/specimen/Montserrat) was chosen for this purpose, as it is neutral and easy to read. 
+[Montserrat](https://fonts.google.com/specimen/Montserrat) was chosen for this purpose. It is neutral and easy to read. 
 
-[Lato](https://fonts.google.com/specimen/Lato) was chosen for body text, as it is light and easy to read.
+[Lato](https://fonts.google.com/specimen/Lato) was chosen for body text as it is light and easy to read.
 
 ### Images
 
-The images in this project were sourced from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [iStock](https://www.istockphoto.com). They were specifically selected to correlate with the main website colour palette and increase aesthetic impact of the design.
+The images in this project were sourced from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [iStock](https://www.istockphoto.com). They were specifically selected to correlate with the main website colour palette and increase the aesthetic impact of the design.
 
 ### Visual Effects
 
 #### Shadows
-As the Home Page consists of multiple colourful overlaping blocks, it was important to add volume and make the content easier to percieve as the viewer's eye doesn't have to focus on understanding spatial relationships between elements, which might be quite daunting. However, to provide better performance on mobile devices it was implemented only for screens bigger than 992px.
+As the Home Page consists of multiple colourful overlapping blocks, it was important to add volume and make the content easier to perceive so the viewer's eye doesn't have to focus on understanding spatial relationships between elements, which might be rather daunting. However, to provide better performance on mobile devices it was implemented only for screens larger than 992px.
 
 
 #### Logo and Page Headings Gradient
-Sofing movement does not have a logo at the moment, for this reason the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours. Thus, it was decided to implement a gradient based on [Charcoal](#shades-of-charcoal-grey) and [Reef](#reef). The similar gradient was later applied to the Philosofy Page Heading and the Meetups Page Heading, but based of [Coral](#coral), in order maintain the website colour pallete.   
+Sofing movement does not have a logo at the moment, for this reason, the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours. Thus, it was decided to implement a gradient of [Charcoal](#shades-of-charcoal-grey) and [Reef](#reef). A similar gradient was later applied to the Philosofy Page Heading and the Meetups Page Heading, but based on [Coral](#coral), to maintain the website colour palette.   
 
 #### Blocks with CTA
-Each block of the Home Page that we want users to interact with and that contains a Call To Action, such as join the club or follow the link, slightly grows (3%) whilst hovered over with a mouse. It provides stimulating visual effect and draws users attention even if hovered over by accident whilst scrolling. To provide better performance on mobile devices it was implemented only for screens bigger than 992px.   
+Each block of the Home Page that we want users to interact with and that contains a Call To Action, such as "join the club" or "follow the link", slightly grows (3%) whilst hovered over with a mouse. It provides a stimulating visual effect and draws users' attention even if hovered over with a mouse by accident whilst scrolling. To provide better performance on mobile devices the effect was implemented only for screens larger than 992px.   
 
 #### Buttons
-Each button offers a similar growing effect described above combined with change of its background colour: by default it is blue and it turns subtle green hovered over with a mouse. The green colour was opted for because it is known to be the [best colour for effective CTA buttons](https://www.wordstream.com/blog/ws/2015/02/20/call-to-action-buttons). To provide better performance on mobile devices it was implemented only for screens bigger than 992px.
+Each button offers a similar growing effect described above combined with a change of its background colour: by default it is blue, and it turns subtle green hovered over with a mouse. The green colour was opted for because it is known to be the [best colour for effective CTA buttons](https://www.wordstream.com/blog/ws/2015/02/20/call-to-action-buttons). To provide better performance on mobile devices it was implemented only for screens larger than 992px.
 
 #### Links
-Due to the bold design and abundance of various content on the Home Page, it seemed to be necessary to draw additional attention to the links. When being hovered over with a mouse links change the text colour and the background colour (depending on the parent block design), the change is implemented with animated effect - "running" from left to right. To provide better performance on mobile devices it was implemented only for screens bigger than 992px.
+Due to the bold design and abundance of content on the Home Page, it seemed to be necessary to draw additional attention to the links. When being hovered over with a mouse, links change the text colour and the background colour (depending on the parent block design), and the change is executed with an animated effect - "running" from left to right. To provide better performance on mobile devices it was implemented only for screens larger than 992px.
 
 #### Navbar Hover effect
-The navbar includes a hover over effect to make experience more interactive and navigation more intuitive. When the user engages with the link or hovers over the link, its background colour changes to light blue to subtly highlight the item without compromosing legibility.
+The navbar includes a hover-over effect to make the experience more interactive and navigation more intuitive. When the user engages with the link or hovers over the link, its background colour changes to light blue to subtly highlight the item without compromising legibility.
 ___
-## Features
+# Features
+## Existing Features
+- **Navigation bar**
+
+![Nav1](assets/images/readme/nav1.png)
+
+Each page has a full responsive sticky navigation bar at the top. It includes the Logo (which is a link to the Home page) and the links to Home, Philosofy, Training, Meetups and Signup pages. It retains an identical layout throughout the website across all devices to ensure **simple and intuitive navigation**. The navbar will allow the user to reach any section of the website from any point at the website without unnecessary steps and using browser navigation buttons.             
+
+![Nav1](assets/images/readme/nav2.png)
+![Nav1](assets/images/readme/nav3.png)
+
+For mobile devices, it transforms into a compact "hamburger menu". This dropdown menu features the same items which are displayed as a column on a semitransparent background.  
+
+- **Hero image**
+
+![Hero](assets/images/readme/hero.png)
+
+This section is the first thing the user sees opening each page (apart from the Signup page, as it's organised differently due to little content and a common convention), it is an eye-catching image for aesthetical stimulation, which also helps to deliver the page's semantics as visual associations are commonly very strong. At the Home page, it also includes overlayed cards with key selling points to help the user understand what the website is about.
+
+![Hero2](assets/images/readme/hero-philosofy.png)
+
+![Hero3](assets/images/readme/hero-meetups.png)
+
+On the other pages, it doesn't include any overlay. All images are selected to correlate with the website's colour palette and contribute to the aesthetic impact of the design, delivering semantics of the section and achieving purposes such as comical effect. Every image is followed by the section heading, which is executed in the colour scheme of the block representing this page on the Home page. Colour coding helps the user build associations and follow the content. 
+
+- **Ethos section**
+
+![Ethos](assets/images/readme/ethos.png)
+
+The ethos section will introduce the user to the concept of Sofing as it is something previously not known. The user will be introduced to the moto, given a little preview of philosofy statements and invited to learn more to the Philosofy page if the user finds the preview appealing.
+
+- **Training section**
+
+![Training](assets/images/readme/training.png)
+
+This section tells the user about the opportunities in the world of Sofing and leads to a separate website for [the reason described above](#meetups-page). Because this concept is new, the user may not assume what features it includes and does not have particular expectations. As well as it contributes to the comical effect.
+
+- **Activities section**
+
+![Activities](assets/images/readme/activities.png)
+
+This section will allow the user to see the activities the movement organises. It invites the user to engage in different ways, increasing the possibility of it happening. Sofa shopping invites the user to shop at our partner's website (During the testing, it demonstrated a very positive response from the users - some of them listed the Shopping website as the most memorable experience). Local Practice leads to the Meetups page of the website, where users can obtain information about regular practice sessions in different locations. Networking leads to Facebook, where users could search Sofing events in their area. 
+
+- **Signup section**
+
+![Signup-index](assets/images/readme/signup-index.png)
+
+This section will explain the benefits of club membership and, combined with the experience of the journey through the Home page, will motivate the user to join. It contains interactive elements and a CTA button to stimulate the user to join.
+
+- **Footer**
+
+![Footer](assets/images/readme/footer.png)
+
+The footer contains the links to the social media and allows the user to continue engagement with the movement on various platforms. 
+
+- **Philosofy page**
+
+![Philosofy](assets/images/readme/philosophy.png)
+
+This page contains detailed information about the movement philosophy (the different spelling is used as a joke to improve branding) to convince the user to get involved. A CTA button at the bottom was considered, but then it was decided to remove it because the project is non-commercial and intrusive CTA buttons do not correlate with the spirit of Philosofy page.
+
+- **Meetups page**
+
+![Meetups](assets/images/readme/meetups-table.png)
+
+This page will allow users to find up-to-date information about practice sessions in different locations. It includes the schedule, the location (leads to a page of the venue on Google Maps) and a clickable phone number, so you can call right away from the page without copying and pasting the number.
+
+- **Signup page**
+
+![Signup](assets/images/readme/signup.png)
+
+This page will allow user to sign up to Sofing and become a part of the community. The user will be asked to submit their full name and email address and choose the country to provide the user with more relevant information about movement's activities and events.
+
+## Feature Considerations
+
+### Signup form processing
+
+Currently, on submission og the Sign Up form, the data goes to the form dump, so the input is not being processed or stored. With the knowlrdge of SQL and Python the input could be stored, processed, analised and used to provide the user with personalised quality experience.
+
+### Popup preview of Google Maps
+
+Currently, on Meetups page the location link leads the user to Google Maps. With includung JS we could provide the user with necessary information in a popup window without leaving the website.
+
+### Gallery aggregated from social media by hashtag
+
+Currently, the website does not have any gallery. The heart of Sofing are people, so having a gallery block on the Home page aggregated from social media might be a great live representation of the movement. 
+
+
+
+
+
+
+
+

@@ -271,7 +271,6 @@ button,
   border: 2px solid #6a6a6a;
   font-size: 110%;
   letter-spacing: 2px;
-  
 }
 
 #training {
@@ -332,7 +331,8 @@ button,
   font-weight: bold;
 }
 
-.blue-box a, .act-block a {
+.blue-box a,
+.act-block a {
   text-decoration: underline;
   font-size: 105%;
   box-shadow: inset 0 0 0 0 var(--whitesmoke);
@@ -483,8 +483,8 @@ footer {
 }
 
 .img-frame {
-justify-self: center;
-align-self: center;
+  justify-self: center;
+  align-self: center;
 }
 
 .philosofy-img {
@@ -714,8 +714,6 @@ select {
     grid-area: 1/13/13/16;
   }
 
-
-
   .image-training {
     grid-area: 2/3/12/15;
   }
@@ -746,7 +744,7 @@ select {
     transform: rotate(-10deg);
     z-index: 1;
   }
-  
+
   .philosofy-img {
     justify-self: center;
     align-self: center;
@@ -798,7 +796,8 @@ select {
     padding: 0;
   }
 
-  .hero-image, #index-img {
+  .hero-image,
+  #index-img {
     height: 600px;
   }
 
@@ -839,11 +838,12 @@ select {
     transition: transform .2s;
   }
 
-.top-nav a:hover {
-  background-color: rgba(166, 206, 239, .4);
-}
+  .top-nav a:hover {
+    background-color: rgba(166, 206, 239, .4);
+  }
 
-  button:hover, .join-button:hover {
+  button:hover,
+  .join-button:hover {
     background-color: #bbf5c7;
     transform: scale(1.03);
   }
@@ -855,7 +855,8 @@ select {
     transform: scale(1.03);
   }
 
-  .blue-box a:hover, .act-block a:hover {
+  .blue-box a:hover,
+  .act-block a:hover {
     box-shadow: inset 120px 0 0 0 var(--whitesmoke);
     color: #515151;
   }
@@ -972,10 +973,6 @@ select {
     grid-template-columns: repeat(2, minmax(125px, 450px));
     gap: 4em;
     justify-content: center;
-  }
-
-  .philosofy-box h1 {
-    font-size: 400%;
   }
 
   /*(C) https://codepen.io/run-time/pen/VNRBJd */
