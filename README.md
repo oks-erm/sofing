@@ -27,14 +27,14 @@ ___
 - I want to find up-to-date information about events and meetings.
 - I want to contact the organisation to request additional information.
 - I want to join the community.
-- I want to find information about training programms and self-development in the field.
+- I want to find information about training programs and self-development in the field.
 
 ### All users want to be able to access and comfortably view the website on mobile devices.
 ___
 ## Structure
 ### Home Page
 - Introduces the movement and its "selling points" on the first screen.
-- Provides a full overview of the topic: each page of the website is represented by its own block.
+- Provides a complete overview of the topic: each page of the website is represented by its own block.
 - Grabs user's attention and grips it with bold design and entertaining content.
     #### User Goal:
     >   - Understand the main purpose of the website.
@@ -83,6 +83,12 @@ ___
 It was decided to take this section to another website (supposedly existing) because it is intended as a commercial project and contains plenty of information, which deserves a separate platform. However, it was considered reasonable to include it in the menu to inform about it because the movement is new, and users can not assume what features it includes. So it takes the user to the website of **Sofing Bootcamp**, where the user may obtain all the relevant information about training. 
 ___
 ## Wireframes
+
+========================================
+========================================
+========================================
+========================================
+
 ___
 ## Design
 
@@ -267,10 +273,37 @@ ___
 - [Autoprefixer.io](https://autoprefixer.GitHub.io) to enhance cross-browser compatibility.
 - [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+- [Markdown Tables Generator](https://www.tablesgenerator.com/) to generate tables for the readme file.
 - Code Institute's Gitpod Template to generate the workspace for the project.
 ___
 # Testing
-3333333
+
+## User Story Testing
+| Expectations                                                                              | Realisation                                                                                                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **As a first time user:**                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                            |
+| I want to easily understand the main purpose  of the site and learn more about the topic. | 1. On the Home Page the user is presented with a logo,  a meaningful hero image, conveying the ethos, and selling  points, with relevant icons, on the first screen. 2. The Home page provides a complete overview of the topic:  each page of the website is represented by its own block and  ethos block appears on the second screen and includes a CTA  button, that invites the user to learn more.  |
+| I want to be able to easily navigate  and find content.                                   | 1. The sticky Navbar allows the user to easily navigate and reach any point of the website from any other point. 2. All external links open in a new tab.                                                                                                                                                                                                                                                  |
+| I want to find ways to join the community  and follow the movement on social media.       | 1. The Signup section of the Home page and the Signup page allow the user to join the club. 2. The footer contains the links to the social media and  allows the user to continue engagement with the movement  on various platforms.                                                                                                                                                                      |
+| I want to be amused.                                                                      | 1. The imagery helps to achieve comical effect from the first sight. 2. The text content is absurd and unexpected. 3. The website has "an easter egg" to make the user smile and surprise them.                                                                                                                                                                                                            |
+| **As a returning and frequent user:**                                                     |                                                                                                                                                                                                                                                                                                                                                                                                            |
+| I want to find up-to-date information  about events and meetings.                         | 1. The Meetups page provides up-to-date information about  local meetups and practice sessions and allows the user to  contact local representatives via phone call.                                                                                                                                                                                                                                       |
+| I want to contact the organisation  to request additional information.                    | 1. The footer contains the links to the social media to contact the organisation there. 2. The Meetups page includes phone numbers of local  representatives.                                                                                                                                                                                                                                              |
+| I want to join the community.                                                             | 1. The Signup section of the Home page and the Signup page allow the user to join the club. 2. The Activities section on the Home page includes information about available activities and links to continue engagement on different platforms.                                                                                                                                                            |
+| I want to find information about training  programs and self-development in the field.    | 1. The Training section of the Home page and the Training link  of the Navbar inform about availability of training programs and lead to the Bootcamp Website.                                                                                                                                                                                                                                             |
+| **All users:**                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                            |
+| want to be able to access and comfortably  view the website on mobile devices.            | 1. The website is fully responsive on all screen sizes and  resolutions starting from 350px. 2. Mobile performance is considered by providing lighter images for the mobile version. 3. The website is designed following the mobile-first approach to make sure that mobile users receive quality, not reduced experience.                                                                                |
+|                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                            |
+
+## Feature Testing
+
+
+## Automated Testing
+
+## Accessibility Testing
+
+## Detected Issues and Resolutions
 
 ___
 
@@ -307,7 +340,7 @@ The live link can be found [here](https://oks-erm.github.io/sofing).
 3. Click `Download ZIP`.
 4. Locate the ZIP file and extact it to a folder where you want the repository to be stored. 
 5. Open IDE of your choice (VSCode, Atom, Komodo, etc).
-6. Navigate to the directory where the Repository was extracted.
+6. Navigate to the directory where the repository was extracted.
 7. Now you will have the contents of the project available offline on your machine.
 
 ___
