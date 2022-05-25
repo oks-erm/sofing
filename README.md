@@ -22,7 +22,7 @@ ___
 - I want to find ways to join the community and follow the movement on different social media.
 - I want to be amused.
 
-### As a **returning** and **frequent user**
+### As a **returning** and a **frequent user**
 
 - I want to find up-to-date information about events and meetings.
 - I want to contact the organisation to request additional information.
@@ -223,6 +223,14 @@ This page will allow users to find up-to-date information about practice session
 
 This page will allow user to sign up to Sofing and become a part of the community. The user will be asked to submit their full name and email address and choose the country to provide the user with more relevant information about movement's activities and events.
 
+## Responsive layout
+
+The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 350px (based on [statistics for 2022](https://worship.agency/wp-content/uploads/2022/01/mobile-screen-sizes-2022.png)). To provide better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) of all hero images are provided. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. However, it was decided to omit the image for the Signup page for the mobile version, as the Signup form takes up all the screen space on mobile devices. 
+
+The choice of breakpoints was based on different aspects, such as typical devices' screen sizes and the intention to provide the best possible representation of the content for all screen sizes. 768px is meant to hit the iPad mini; 992px is quite common to signify the transition to laptops, and content-wise, it proved to be reasonable. 1200px is not a typical choice, but  it was preferred based on the content layout. Media query for screens above 1200px also contains fixed width for many blocks, as, for the convenience of the user and maintaining design aesthetics, it was decided to stop the content from further expanding. 
+
+Flexbox and Grid, depending on the content of the block, were used to allow the website to expand and shrink responsively to a device screen size providing each page's design integrity. Elements must maintain their respective position (or change if intended for more efficient representation), they don't overlap or misalign, and the content doesn't overflow. 
+
 ## Feature Considerations
 
 ### Signup form processing
@@ -237,10 +245,77 @@ Currently, on the Meetups page, the location link leads the user to Google Maps.
 
 Currently, the website does not have any gallery. The heart of Sofing are people, so having a gallery block on the Home page aggregated from social media might be a great live representation of the movement. 
 
+___
 
+# Technologies
+- HTML to accomplish the structure of the website.
+- CSS to style the website.
+- [Gitpod](https://gitpod.io/) IDE to develop the website.
+- [GitHub](https://GitHub.com/) to host the source code and GitHub Pages to deploy and host the live site.
+- Git to provide version control (to commit and push code to the repository). 
+- [FontAwesome](https://fontawesome.com/) v5.15.1 Icons.
+- [Google Fonts](https://fonts.google.com/) for typography.
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) for debugging, inspecting pages elements and testing layout.
+- [CloudConvert](https://cloudconvert.com/webp-converter) to optimise images to reduce storage and enhance the website performance. 
+- [Favicon.cc](https://www.favicon.cc/) to create the website favicon.
+- [Coolors](https://coolors.co/image-picker) to source colour palette from image.
+- [Balsamiq](https://balsamiq.com/wireframes/) to design wireframes.
+- [Techsini](https://tecnisih.com) to create the Mock up image in this README.
+- Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) to assess accessibility.
+- [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en) to assess screen-reader accessibility.
+- Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess colour-blind accessibility.
+- [Autoprefixer.io](https://autoprefixer.GitHub.io) to enhance cross-browser compatibility.
+- [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
+- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+- Code Institute's Gitpod Template to generate the workspace for the project.
+___
+# Testing
+3333333
 
+___
 
+# Deployment
 
+This project was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Log into GitHub.
+2. Select `sofing` from the list of repositories.
+3. Select `Settings` From the Repositories sub-headings.
+4. In the left side menu select `Pages` from `Code and automation` section.
+5. Under the `Source` heading in the dropdown menu select `main`.
+6. A second drop-down menu should remain with the default value `/(root)`.
+7. Press Save.
+8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
+9. Click on the link to go to the live deployed page.
+
+The live link can be found [here](https://oks-erm.github.io/sofing).
+
+## How to run this project Locally
+
+- **Clone the repository**
+1. Navigate to the GitHub Repository `oks-erm/sofing`.
+2. Click the `Code` drop down menu.
+3. Click the `HTTPS` sub-heading under the `Clone` heading.
+4. Copy the link.
+5. Open IDE of your choice (VSCode, Atom, Komodo, etc).
+6. Open a terminal in the directory of your choice, type `git clone` and paste the link.
+7. A clone of the repository will now be created on your machine.
+
+- **Download the repository manually**
+1. Navigate to the GitHub Repository `oks-erm/sofing`.
+2. Click the `Code` drop down menu.
+3. Click `Download ZIP`.
+4. Locate the ZIP file and extact it to a folder where you want the repository to be stored. 
+5. Open IDE of your choice (VSCode, Atom, Komodo, etc).
+6. Navigate to the directory where the Repository was extracted.
+7. Now you will have the contents of the project available offline on your machine.
+
+___
+
+# Credits
+3333333
+
+___
 
 
 
