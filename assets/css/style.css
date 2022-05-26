@@ -445,7 +445,7 @@ th {
 
 .signup-section button {
   padding: 0.7em;
-  margin: 0.5em 0;
+  margin:0;
 }
 
 .signup-image {
@@ -730,6 +730,10 @@ select {
     grid-area: 5/2/10/10;
   }
 
+  .text-wrapper p {
+    padding: 20px 0 25px 0;
+  }
+
   #philosofy-img {
     background: url(../images/philosofy.webp) no-repeat center center;
   }
@@ -895,7 +899,7 @@ select {
 
   .text-wrapper p {
     font-size: 120%;
-    padding: 5% 0;
+    padding: 5px 0 15px 0;
     text-align: left;
   }
 

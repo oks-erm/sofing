@@ -387,9 +387,13 @@ However, a layout bug was found, which didn't appear at any other stage.
 
 ## Detected Issues and Resolutions
 
-1. button
+1. During the testig with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) a bug with the "SIGN UP" button on the Home page was detected. However, I it did not appear on any device, any browser or any screen size during other testing stages. I struggled to "achieve" the same result to be able to resolve it when finally it was detected again on the mobile device with activated accessibility tools. 
 
-2. contrast
+![Bug](assets/images/readme/bug.png)
+
+
+
+2. There was also detected a warning about contrast 
 ___
 
 # Deployment
