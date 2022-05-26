@@ -227,7 +227,13 @@ This page will allow users to find up-to-date information about practice session
 
 ![Signup](assets/images/readme/signup.png)
 
-This page will allow user to sign up to Sofing and become a part of the community. The user will be asked to submit their full name and email address and choose the country to provide the user with more relevant information about movement's activities and events.
+This page will allow user to sign up to Sofing and become a part of the community. The page contains the form, where the user will be asked to submit their full name and email address and choose the country to provide the user with more relevant information about movement's activities and events.
+
+- **Easter egg**
+
+![Easter](assets/images/readme/easter.png)
+
+Philosofy page includes an ester egg. It appears when hovered over with a mouse over the hero image somewhat below "Philosofy" link in the Navbar, so the user might come across it whilst scrolling. Implemented for screens above 1200px.
 
 ## Responsive layout
 
@@ -297,8 +303,13 @@ ___
 
 ## Feature Testing
 
-Testing the Features was completed manually, find the results below.
+All Features were tested manually, find the results below.
 The website was tested in three browsers: Chrome, Firefox and Safari.
+
+![Features_testing](assets/images/readme/features_testing.png)
+
+Testing results: [Excel](assets/testing_doc/features_testing.xlsx), [Numbers MacOS](assets/testing_doc/feature_testing.numbers).
+
 
 ## Automated Testing
 
@@ -360,8 +371,7 @@ The website was tested with [Screen Reader for Goggle Chrome](https://chrome.goo
 
 ### Toptal Colorfilter
 
-The website was tested with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/). 
-No accessibility issues were detected.
+The website was tested with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) to make sure it is accesible for colour-blind users. No accessibility issues were detected.
 
 [Result preview 1](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=protan)
 

@@ -917,7 +917,6 @@ select {
   }
 }
 
-
 @media screen and (min-width: 1200px) {
 
   #index-img {
@@ -978,10 +977,9 @@ select {
   }
 
   /*(C) https://codepen.io/run-time/pen/VNRBJd */
-
   .easter-egg {
     position: absolute;
-    bottom: 430px;
+    bottom: 60vh;
     font-size: 180%;
     z-index: 10;
     width: 270px;
@@ -1004,6 +1002,7 @@ select {
     left: 32px;
     bottom: -24px;
   }
+  /* The end of the snippet */
 
   .easter-egg:hover {
     opacity: 100%;
