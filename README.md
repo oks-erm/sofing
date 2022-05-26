@@ -279,32 +279,107 @@ ___
 # Testing
 
 ## User Story Testing
-| Expectations                                                                              | Realisation                                                                                                                                                                                                                                                                                                                                                                                                |
-|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **As a first time user:**                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                            |
-| I want to easily understand the main purpose  of the site and learn more about the topic. | 1. On the Home Page the user is presented with a logo,  a meaningful hero image, conveying the ethos, and selling  points, with relevant icons, on the first screen. 2. The Home page provides a complete overview of the topic:  each page of the website is represented by its own block and  ethos block appears on the second screen and includes a CTA  button, that invites the user to learn more.  |
-| I want to be able to easily navigate  and find content.                                   | 1. The sticky Navbar allows the user to easily navigate and reach any point of the website from any other point. 2. All external links open in a new tab.                                                                                                                                                                                                                                                  |
-| I want to find ways to join the community  and follow the movement on social media.       | 1. The Signup section of the Home page and the Signup page allow the user to join the club. 2. The footer contains the links to the social media and  allows the user to continue engagement with the movement  on various platforms.                                                                                                                                                                      |
-| I want to be amused.                                                                      | 1. The imagery helps to achieve comical effect from the first sight. 2. The text content is absurd and unexpected. 3. The website has "an easter egg" to make the user smile and surprise them.                                                                                                                                                                                                            |
-| **As a returning and frequent user:**                                                     |                                                                                                                                                                                                                                                                                                                                                                                                            |
-| I want to find up-to-date information  about events and meetings.                         | 1. The Meetups page provides up-to-date information about  local meetups and practice sessions and allows the user to  contact local representatives via phone call.                                                                                                                                                                                                                                       |
-| I want to contact the organisation  to request additional information.                    | 1. The footer contains the links to the social media to contact the organisation there. 2. The Meetups page includes phone numbers of local  representatives.                                                                                                                                                                                                                                              |
-| I want to join the community.                                                             | 1. The Signup section of the Home page and the Signup page allow the user to join the club. 2. The Activities section on the Home page includes information about available activities and links to continue engagement on different platforms.                                                                                                                                                            |
-| I want to find information about training  programs and self-development in the field.    | 1. The Training section of the Home page and the Training link  of the Navbar inform about availability of training programs and lead to the Bootcamp Website.                                                                                                                                                                                                                                             |
-| **All users:**                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                            |
-| want to be able to access and comfortably  view the website on mobile devices.            | 1. The website is fully responsive on all screen sizes and  resolutions starting from 350px. 2. Mobile performance is considered by providing lighter images for the mobile version. 3. The website is designed following the mobile-first approach to make sure that mobile users receive quality, not reduced experience.                                                                                |
-|                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                            |
-|                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Expectations                                                                                 | Realisation                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **As a first time user:**                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| I want to easily understand the main purpose <br>of the site and learn more about the topic. | 1. On the Home Page the user is presented with a logo, <br>a meaningful hero image, conveying the ethos, and selling <br>points, with relevant icons, on the first screen.<br><br>2. The Home page provides a complete overview of the topic: <br><br>each page of the website is represented by its own block and <br>ethos block appears on the second screen and includes a CTA <br>button, that invites the user to learn more.  |
+| I want to be able to easily navigate <br>and find content.                                   | 1. The sticky Navbar allows the user to easily navigate and<br>reach any point of the website from any other point.<br><br>2. All external links open in a new tab.                                                                                                                                                                                                                                                                  |
+| I want to find ways to join the community <br>and follow the movement on social media.       | 1. The Signup section of the Home page and the Signup page<br>allow the user to join the club.<br><br>2. The footer contains the links to the social media and <br>allows the user to continue engagement with the movement <br>on various platforms.                                                                                                                                                                                |
+| I want to be amused.                                                                         | 1. The imagery helps to achieve a comical effect from first<br>sight.<br><br>2. The text content is absurd and unexpected.<br><br>3. The website has "an easter egg" to make the user smile<br>and surprise them.                                                                                                                                                                                                                    |
+| **As a returning and frequent user:**                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| I want to find up-to-date information <br>about events and meetings.                         | 1. The Meetups page provides up-to-date information about <br>local meetups and practice sessions and allows the user to <br>contact local representatives via phone call.                                                                                                                                                                                                                                                           |
+| I want to contact the organisation <br>to request additional information.                    | 1. The footer contains the links to the social media to contact<br>the organisation there.<br><br>2. The Meetups page includes phone numbers of local <br><br>representatives.                                                                                                                                                                                                                                                       |
+| I want to join the community.                                                                | 1. The Signup section of the Home page and the Signup page<br>allow the user to join the club.<br><br>2. The Activities section on the Home page includes information<br>about available activities and links to continue engagement<br>on different platforms.                                                                                                                                                                      |
+| I want to find information about training <br>programs and self-development in the field.    | 1. The Training section of the Home page and the Training link <br>of the Navbar inform about availability of training programs and<br>lead to the Bootcamp Website.                                                                                                                                                                                                                                                                 |
+| **All users:**                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| want to be able to access and comfortably <br>view the website on mobile devices.            | 1. The website is fully responsive on all screen sizes and <br>resolutions starting from 350px.<br><br>2. Mobile performance is considered by providing lighter images<br>for the mobile version.<br><br>3. The website is designed following the mobile-first approach<br>to make sure that mobile users receive quality, not reduced<br>experience.                                                                                |
+
 
 ## Feature Testing
 
+Testing the Features was completed manually, find the results below.
+The website was tested in three browsers: Chrome, Firefox and Safari.
 
 ## Automated Testing
 
+1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
+
+All pages were run through HTML Validator. No errors were detected.
+
+2. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
+
+CSS Stylesheet was run through CSS Validator. No errors were detected.
+
+3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
+
+**Home Page**
+
+Mobile
+
+![Mobile Home](/assets/images/readme/lighth-home-mobile.png)
+
+Desktop
+
+![Desktop Home](/assets/images/readme/lighth-home-desktop.png)
+
+**Philosofy Page**
+
+Mobile
+
+![Mobile Ph](/assets/images/readme/lighth-phil-mobile.png)
+
+Desktop
+
+![Desktop Ph](/assets/images/readme/lighth-phil-desktop.png)
+
+**Meetups Page**
+
+Mobile
+
+![Mobile Meetups](/assets/images/readme/lighth-meetups-mobile.png)
+
+Desktop
+
+![Desktop Meetups](/assets/images/readme/lighth-meetups-desktop.png)
+
+**Signup Page**
+
+Mobile
+
+![Mobile Signup](/assets/images/readme/lighth-signup-mobile.png)
+
+Desktop
+
+![Desktop Signup](/assets/images/readme/lighth-signup-desktop.png)
+
 ## Accessibility Testing
+
+### Screen Reader for Goggle Chrome
+
+The website was tested with [Screen Reader for Goggle Chrome](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en). No issues arised. 
+
+### Toptal Colorfilter
+
+The website was tested with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/). 
+No accessibility issues were detected.
+
+[Result preview 1](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=protan)
+
+[Result preview 2](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=deutan)
+
+[Result preview 3](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=tritan)
+
+[Result preview 4](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=grey)
+
+However, a layout bug was found, which didn't appear at any other stage.
+
+![Bug](assets/images/readme/button-bug.png)
 
 ## Detected Issues and Resolutions
 
+1. button
+
+2. contrast
 ___
 
 # Deployment

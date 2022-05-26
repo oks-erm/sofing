@@ -188,6 +188,7 @@ button,
   height: 400px;
   width: 100%;
   z-index: -1;
+  border-bottom: 2px solid #c8c3c3;
 }
 
 #index-img {
@@ -460,6 +461,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-top: 2px solid #dfdfdf;
 }
 
 .social-networks {
