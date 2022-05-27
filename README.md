@@ -304,7 +304,7 @@ ___
 ## Feature Testing
 
 All Features were tested manually, find the results below.
-The website was tested in three browsers: Chrome, Firefox and Safari.
+The website was tested in three browsers: Chrome, Firefox and Safari on Desktops, tablets and multiple mobile devices (MacOS and Android).
 
 ![Features_testing](assets/images/readme/features_testing.png)
 
@@ -469,6 +469,7 @@ favicon.ico was created by me.
 ## Acknowledgements
 
 I'd like to thank my mentor, Ronan McClelland, for his guidance, moral support, inspiration, invaluable advice and sense of humour.
+
 Thanks to Slack Community.
 ___
 
