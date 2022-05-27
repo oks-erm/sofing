@@ -77,7 +77,7 @@ button,
   align-items: center;
   justify-content: space-between;
   background: var(--lightgray);
-  height: 64px;
+  height: 4em;
   padding: 0 4%;
   border-bottom: 2px solid #dfdfdf;
 }
@@ -85,7 +85,7 @@ button,
 .menu-button-container {
   display: flex;
   height: 100%;
-  width: 30px;
+  width: 1.875em;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +96,7 @@ button,
 .menu {
   position: absolute;
   top: 0;
-  margin-top: 60px;
+  margin-top: 3.75em;
   left: 0;
   flex-direction: column;
   width: 97%;
@@ -126,7 +126,7 @@ button,
   color: var(--dark);
   background-color: rgba(240, 240, 240, .9);
   overflow: hidden;
-  line-height: 32px;
+  line-height: 2em;
 }
 
 #menu-switch {
@@ -139,20 +139,20 @@ button,
   display: block;
   background-color: #6a6a6a;
   position: absolute;
-  height: 4px;
-  width: 30px;
+  height: 0.25em;
+  width: 1.875em;
   transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
   border-radius: 2px;
 }
 
 .menu-button::before {
   content: '';
-  margin-top: -8px;
+  margin-top: -0.5em;
 }
 
 .menu-button::after {
   content: '';
-  margin-top: 8px;
+  margin-top: 0.5em;
 }
 
 #menu-switch:checked+.menu-button-container .menu-button::before {
@@ -174,7 +174,7 @@ button,
   top: 0;
   width: 100%;
   z-index: 99;
-  margin-bottom: 50px;
+  margin-bottom: 3.125em;
 }
 
 .top {
@@ -185,17 +185,16 @@ button,
 }
 
 .hero-image {
-  height: 400px;
+  height: 25em;
   width: 100%;
   z-index: -1;
-  border-bottom: 2px solid #c8c3c3;
 }
 
 #index-img {
   background: url(../images/hero-image-mobile.webp) no-repeat center center;
   background-color: var(--blue);
   background-size: cover;
-  height: 500px;
+  height: 31.25em;
 }
 
 #philosofy-img {
@@ -211,8 +210,8 @@ button,
 #cards-container {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
-  margin-top: -80px;
+  row-gap: 0.625em;
+  margin-top: -5em;
   z-index: 2;
 }
 
@@ -238,7 +237,7 @@ button,
 }
 
 #ethos {
-  height: 700px;
+  height: 43.75em;
   background-color: var(--dark);
   z-index: 0;
   display: flex;
@@ -263,6 +262,10 @@ button,
   margin: 0em 1em 1.5em 1em;
 }
 
+.ethos-box p {
+  padding: 0;
+}
+
 button,
 .join-button {
   margin: 2em 0 0 0;
@@ -283,8 +286,8 @@ button,
 #bootcamp-container {
   width: 100%;
   display: grid;
-  grid-template-rows: repeat(12, minmax(18.6px, 62px));
-  grid-template-columns: 1fr repeat(14, minmax(15px, 50px)) 1fr;
+  grid-template-rows: repeat(12, minmax(1.15em, 4em));
+  grid-template-columns: 1fr repeat(14, minmax(1em, 3.25em)) 1fr;
 }
 
 .black-overlap {
@@ -337,8 +340,8 @@ button,
   text-decoration: underline;
   font-size: 105%;
   box-shadow: inset 0 0 0 0 var(--whitesmoke);
-  margin: 0 -.25rem;
-  padding: 0 .1rem;
+  margin: 0 -.25em;
+  padding: 0 .1em;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
@@ -374,16 +377,16 @@ button,
 }
 
 .act-block {
-  height: 350px;
-  width: 230px;
+  height: 21.875em;
+  width: 14.375em;
   background-color: var(--whitesmoke);
   padding: 1em;
   align-self: center;
 }
 
 .act-card-image {
-  height: 230px;
-  width: 230px;
+  height: 14.375em;
+  width: 14.375em;
   background-size: contain !important;
   overflow: hidden;
 }
@@ -422,8 +425,8 @@ th {
 .signup-container {
   width: 100%;
   display: grid;
-  grid-template-rows: repeat(10, minmax(18.6px, 62px));
-  grid-template-columns: 1fr repeat(8, minmax(15px, 50px)) 1fr;
+  grid-template-rows: repeat(10, minmax(1.15em, 4em));
+  grid-template-columns: 1fr repeat(8, minmax(1em, 3.25em)) 1fr;
 }
 
 #stripe {
@@ -456,7 +459,7 @@ th {
 }
 
 footer {
-  height: 100px;
+  height: 6.25em;
   background-color: var(--coral);
   display: flex;
   flex-direction: column;
@@ -490,8 +493,8 @@ footer {
 }
 
 .philosofy-img {
-  width: 250px;
-  height: 250px;
+  width: 15.625em;
+  height: 15.625em;
 }
 
 #img-1 {
@@ -585,7 +588,7 @@ table a {
 .signup-form {
   color: var(--dark);
   background-color: rgba(229, 240, 247, 0.9);
-  max-width: 350px;
+  max-width: 21.875em;
   padding: 2em;
   margin: 7em 0 3em 0;
   border: 4px solid var(--whitesmoke);
@@ -598,7 +601,7 @@ table a {
   letter-spacing: 1px;
   font-weight: bold;
   color: #515151;
-  padding: 20px 0;
+  padding: 1.25em 0;
 }
 
 .text-input,
@@ -610,7 +613,7 @@ select {
   margin: 5px 0 20px 0;
   border: 2px solid #f8f8f8;
   border-radius: 3px;
-  padding: 0 10px;
+  padding: 0 0.625em;
 }
 
 select {
@@ -654,12 +657,12 @@ select {
   #menu-switch~.menu li {
     height: 100%;
     justify-content: center;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 1.25em;
     line-height: 25px;
   }
 
   .hero-image {
-    height: 570px;
+    height: 35.625em;
     background-position: bottom;
   }
 
@@ -668,14 +671,14 @@ select {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
-    margin: -15em 5% -10em 5%;
+    margin: -10em 5% -10em 5%;
     justify-content: center;
   }
 
   .card {
     display: flex;
-    width: 240px;
-    height: 200px;
+    width: 15em;
+    height: 12.5em;
     align-items: center;
   }
 
@@ -691,14 +694,14 @@ select {
   }
 
   #black {
-    height: 150px;
+    height: 9.375em;
     width: 100%;
     background-color: var(--dark);
     z-index: -2;
   }
 
   #ethos {
-    height: 620px;
+    height: 38.75em;
   }
 
   #ethos-container {
@@ -714,8 +717,8 @@ select {
 
   #bootcamp-container {
     display: grid;
-    grid-template-rows: repeat(14, minmax(15px, 50px));
-    grid-template-columns: 1fr repeat(14, minmax(18.6px, 62px)) 1fr;
+    grid-template-rows: repeat(14, minmax(1em, 3.25em));
+    grid-template-columns: 1fr repeat(14, minmax(1.15em, 4em)) 1fr;
   }
 
   .black-overlap {
@@ -741,7 +744,7 @@ select {
   }
 
   .text-wrapper p {
-    padding: 20px 0 25px 0;
+    padding: 1.25em 0 1.5em 0;
   }
 
   #philosofy-img {
@@ -749,14 +752,14 @@ select {
   }
 
   #philosofy-container {
-    grid-template-columns: repeat(2, minmax(125px, 450px));
+    grid-template-columns: repeat(2, minmax(7.75em, 28em));
     gap: 3em;
   }
 
   .img-frame {
     background-color: var(--coral);
-    width: 250px;
-    height: 250px;
+    width: 15.5em;
+    height: 15.5em;
     transform: rotate(-10deg);
     z-index: 1;
   }
@@ -791,7 +794,7 @@ select {
   .signup {
     background: url(../images/signup.webp) no-repeat left center;
     background-size: cover;
-    height: 900px;
+    height: 56.25em;
   }
 
   .shadow {
@@ -814,7 +817,7 @@ select {
 
   .hero-image,
   #index-img {
-    height: 600px;
+    height: 37.5em;
   }
 
   #index-img {
@@ -827,8 +830,8 @@ select {
   }
 
   .card {
-    width: 162px;
-    height: 240px;
+    width: 10.125em;
+    height: 15em;
   }
 
   .card-down {
@@ -873,18 +876,18 @@ select {
 
   .blue-box a:hover,
   .act-block a:hover {
-    box-shadow: inset 120px 0 0 0 var(--whitesmoke);
+    box-shadow: inset 7.5em 0 0 0 var(--whitesmoke);
     color: #515151;
   }
 
   .act-block a:hover {
-    box-shadow: inset 100px 0 0 0 var(--coral);
+    box-shadow: inset 6.25em 0 0 0 var(--coral);
     color: var(--whitesmoke);
   }
 
   .signup-container {
-    grid-template-rows: repeat(10, minmax(15px, 50px));
-    grid-template-columns: 1fr repeat(14, minmax(18.6px, 62px)) 1fr;
+    grid-template-rows: repeat(10, minmax(1em, 3.25em));
+    grid-template-columns: 1fr repeat(14, minmax(1.15em, 4em)) 1fr;
   }
 
   #stripe {
@@ -909,7 +912,7 @@ select {
 
   .text-wrapper p {
     font-size: 120%;
-    padding: 5px 0 15px 0;
+    padding: 0.375em 0 1em 0;
     text-align: left;
   }
 
@@ -922,7 +925,7 @@ select {
     margin: 0 10% 0 0;
     position: absolute;
     right: 0;
-    padding: 30px;
+    padding: 1.75em;
   }
 
   td,
@@ -934,11 +937,11 @@ select {
 @media screen and (min-width: 1200px) {
 
   #index-img {
-    height: 750px;
+    height: 47em;
   }
 
   #cards-container {
-    gap: 30px;
+    gap: 2em;
   }
 
   #ethos-container {
@@ -952,7 +955,7 @@ select {
     color: var(--lightgray);
     text-align: left;
     flex: 1;
-    padding: 0 25px 0 25px;
+    padding: 0 1.5em 0 1.5em;
   }
 
   #ethos-container>.ethos-box>h1 {
@@ -962,8 +965,8 @@ select {
   }
 
   .signup-container {
-    grid-template-rows: repeat(10, minmax(15px, 50px));
-    grid-template-columns: 1fr 1fr repeat(14, minmax(18.6px, 62px)) 1fr 1fr;
+    grid-template-rows: repeat(10, minmax(1em, 3.25em));
+    grid-template-columns: 1fr 1fr repeat(14, minmax(1.15em, 4em)) 1fr 1fr;
   }
 
   #stripe {
@@ -985,7 +988,7 @@ select {
   }
 
   #philosofy-container {
-    grid-template-columns: repeat(2, minmax(125px, 450px));
+    grid-template-columns: repeat(2, minmax(7.75em, 28em));
     gap: 4em;
     justify-content: center;
   }
@@ -996,10 +999,10 @@ select {
     bottom: 60vh;
     font-size: 180%;
     z-index: 10;
-    width: 270px;
+    width: 16.875em;
     background: var(--lightgray);
-    border-radius: 40px;
-    padding: 15px;
+    border-radius: 2.5em;
+    padding: 0.9375em;
     color: var(--dark);
     opacity: 0;
   }
@@ -1009,12 +1012,12 @@ select {
     width: 0px;
     height: 0px;
     position: absolute;
-    border-left: 24px solid var(--lightgray);
-    border-right: 12px solid transparent;
-    border-top: 12px solid var(--lightgray);
-    border-bottom: 20px solid transparent;
-    left: 32px;
-    bottom: -24px;
+    border-left: 1.5em solid var(--lightgray);
+    border-right: 0.75em solid transparent;
+    border-top: 0.75em solid var(--lightgray);
+    border-bottom: 1.25em solid transparent;
+    left: 2em;
+    bottom: -1.5em;
   }
   /* The end of the snippet */
 
