@@ -457,7 +457,7 @@ th {
 
 .signup-section button {
   padding: 0.7em;
-  margin:0;
+  margin: 0;
 }
 
 .signup-image {
@@ -662,7 +662,7 @@ select {
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
-  
+
   /* Home Page */
 
   .menu-button-container {
@@ -1070,6 +1070,7 @@ select {
     left: 2em;
     bottom: -1.5em;
   }
+
   /* The end of the snippet */
 
   .easter-egg:hover {
