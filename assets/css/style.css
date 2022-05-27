@@ -691,8 +691,8 @@ select {
     line-height: 25px;
   }
 
-  .hero-image {
-    height: 35.625em;
+  .hero-image, #index-img {
+    height: 37em;
     background-position: bottom;
   }
 
@@ -701,7 +701,7 @@ select {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
-    margin: -10em 5% -10em 5%;
+    margin: -15em 5% -10em 5%;
     justify-content: center;
   }
 
