@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
 
+/* Defaults and Variables */
+
 :root {
   --blue: #a6ceef;
   --lightgray: #efefef;
@@ -50,13 +52,6 @@ td {
   padding-left: 3%;
 }
 
-.gradient {
-  background: -webkit-linear-gradient(#afd6e0, #6a6a6a);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 a,
 button,
 .join-button {
@@ -67,9 +62,18 @@ button,
   text-transform: uppercase;
 }
 
-.active {
-  border-bottom: 1px solid var(--dark);
+button,
+.join-button {
+  margin: 2em 0 0 0;
+  padding: 0.7em 2.9em;
+  color: var(--dark);
+  background-color: var(--blue);
+  border: 2px solid #6a6a6a;
+  font-size: 110%;
+  letter-spacing: 2px;
 }
+
+/* Navbar */
 
 .top-nav {
   display: flex;
@@ -169,6 +173,10 @@ button,
   transform: rotate(-405deg);
 }
 
+.active {
+  border-bottom: 1px solid var(--dark);
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -176,6 +184,8 @@ button,
   z-index: 99;
   margin-bottom: 3.125em;
 }
+
+/* Hero Img */
 
 .top {
   height: 100%;
@@ -207,6 +217,8 @@ button,
   background-color: var(--blue);
 }
 
+/* Hero-Cards */
+
 #cards-container {
   display: flex;
   flex-direction: column;
@@ -235,6 +247,8 @@ button,
   margin: 5px 0;
   letter-spacing: 2px;
 }
+
+/* Ethos (Dark block) */
 
 #ethos {
   height: 43.75em;
@@ -266,16 +280,7 @@ button,
   padding: 0;
 }
 
-button,
-.join-button {
-  margin: 2em 0 0 0;
-  padding: 0.7em 2.9em;
-  color: var(--dark);
-  background-color: var(--blue);
-  border: 2px solid #6a6a6a;
-  font-size: 110%;
-  letter-spacing: 2px;
-}
+/* Training Section */
 
 #training {
   background-color: var(--lightgray);
@@ -344,6 +349,8 @@ button,
   padding: 0 .1em;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
+/* Activities (Coral block) */
 
 #activities {
   background-color: var(--coral);
@@ -417,6 +424,8 @@ th {
   padding: 0.3em 0 0.8em 0;
 }
 
+/* Signup Section */
+
 .signup-section {
   background-color: var(--lightgray);
   height: 100%;
@@ -458,6 +467,8 @@ th {
   grid-area: 1/1/7/11;
 }
 
+/* Footer */
+
 footer {
   height: 6.25em;
   background-color: var(--coral);
@@ -482,6 +493,8 @@ footer {
   font-size: 150%;
   color: var(--lightgray);
 }
+
+/* Philosofy Page */
 
 #philosofy {
   padding: 3em 0;
@@ -535,6 +548,8 @@ footer {
   -webkit-text-fill-color: transparent;
 }
 
+/* Meetups Page */
+
 #meetups {
   display: flex;
   flex-direction: column;
@@ -576,6 +591,8 @@ table a {
   text-decoration: underline;
   text-transform: none;
 }
+
+/* Signup Page */
 
 .signup {
   background-color: #111e26;
@@ -629,11 +646,24 @@ select {
   margin: 1em 0;
 }
 
+/* Effects */
+
+.gradient {
+  background: -webkit-linear-gradient(#afd6e0, #6a6a6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .easter-egg {
   opacity: 0;
 }
 
+/* Media Queries */
+
 @media screen and (min-width: 768px) {
+  
+  /* Home Page */
 
   .menu-button-container {
     display: none;
@@ -747,6 +777,8 @@ select {
     padding: 1.25em 0 1.5em 0;
   }
 
+  /* Pholosofy Page */
+
   #philosofy-img {
     background: url(../images/philosofy.webp) no-repeat center center;
   }
@@ -779,6 +811,8 @@ select {
     grid-area: 2/2/2/2;
   }
 
+  /* Meetups Page */
+
   #meetups-img {
     background: url(../images/meetups.webp) no-repeat center center;
   }
@@ -791,11 +825,15 @@ select {
     max-width: 30em;
   }
 
+  /* Signup Page */
+
   .signup {
     background: url(../images/signup.webp) no-repeat left center;
     background-size: cover;
     height: 56.25em;
   }
+
+  /* Effects */
 
   .shadow {
     box-shadow: 2px 2px 4px #848484;
@@ -803,6 +841,9 @@ select {
 }
 
 @media screen and (min-width:992px) {
+
+  /* Home Page */
+
   .menu {
     width: 46em;
   }
@@ -850,41 +891,6 @@ select {
     width: 40em;
   }
 
-  button,
-  .blue-box,
-  .act-block,
-  .text-wrapper {
-    transition: transform .2s;
-  }
-
-  .top-nav a:hover {
-    background-color: rgba(166, 206, 239, .4);
-  }
-
-  button:hover,
-  .join-button:hover {
-    background-color: #bbf5c7;
-    transform: scale(1.03);
-  }
-
-  .blue-box:hover,
-  .act-block:hover,
-  .text-wrapper:hover,
-  .join-button:hover {
-    transform: scale(1.03);
-  }
-
-  .blue-box a:hover,
-  .act-block a:hover {
-    box-shadow: inset 7.5em 0 0 0 var(--whitesmoke);
-    color: #515151;
-  }
-
-  .act-block a:hover {
-    box-shadow: inset 6.25em 0 0 0 var(--coral);
-    color: var(--whitesmoke);
-  }
-
   .signup-container {
     grid-template-rows: repeat(10, minmax(1em, 3.25em));
     grid-template-columns: 1fr repeat(14, minmax(1.15em, 4em)) 1fr;
@@ -920,6 +926,15 @@ select {
     grid-area: 3/6/13/16;
   }
 
+  /* Meetups Page */
+
+  td,
+  th {
+    padding: 0.5em 1em;
+  }
+
+  /* Signup Page */
+
   .signup-form {
     background-color: rgba(245, 251, 255, 0.8);
     margin: 0 10% 0 0;
@@ -928,13 +943,47 @@ select {
     padding: 1.75em;
   }
 
-  td,
-  th {
-    padding: 0.5em 1em;
+  /* Effects  */
+
+  button,
+  .blue-box,
+  .act-block,
+  .text-wrapper {
+    transition: transform .2s;
+  }
+
+  .top-nav a:hover {
+    background-color: rgba(166, 206, 239, .4);
+  }
+
+  .blue-box:hover,
+  .act-block:hover,
+  .text-wrapper:hover,
+  .join-button:hover {
+    transform: scale(1.03);
+  }
+
+  .blue-box a:hover,
+  .act-block a:hover {
+    box-shadow: inset 7.5em 0 0 0 var(--whitesmoke);
+    color: #515151;
+  }
+
+  .act-block a:hover {
+    box-shadow: inset 6.25em 0 0 0 var(--coral);
+    color: var(--whitesmoke);
+  }
+
+  button:hover,
+  .join-button:hover {
+    background-color: #bbf5c7;
+    transform: scale(1.03);
   }
 }
 
 @media screen and (min-width: 1200px) {
+
+  /* Home Page */
 
   #index-img {
     height: 47em;
@@ -987,6 +1036,8 @@ select {
     grid-area: 3/6/13/17;
   }
 
+  /* Philosofy Page */
+
   #philosofy-container {
     grid-template-columns: repeat(2, minmax(7.75em, 28em));
     gap: 4em;
@@ -996,7 +1047,7 @@ select {
   /*(C) https://codepen.io/run-time/pen/VNRBJd */
   .easter-egg {
     position: absolute;
-    bottom: 60vh;
+    top: 10em;
     font-size: 180%;
     z-index: 10;
     width: 16.875em;
