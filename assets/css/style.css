@@ -603,13 +603,23 @@ table a {
 
 .text-input,
 select {
-  background: transparent;
+  background: rgba(245, 251, 255, 0.4);
   color: var(--dark);
-  width: 100%;
+  width: 93%;
   height: 3em;
   margin: 5px 0 20px 0;
   border: 2px solid #f8f8f8;
   border-radius: 3px;
+  padding: 0 10px;
+}
+
+select {
+  width: 100%;
+}
+
+.signup-form p {
+  font-size: 90%;
+  font-style: italic;
 }
 
 .join-button {
