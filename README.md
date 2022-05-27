@@ -84,10 +84,14 @@ It was decided to take this section to another website (supposedly existing) bec
 ___
 ## Wireframes
 
-========================================
-========================================
-========================================
-========================================
+
+[Home-wireframe (full size)](assets/images/readme/wireframes/home-wire.png)
+
+[Philosofy-wireframe (full size)](assets/images/readme/wireframes/philosofy-wire.png)
+
+[Meetups-wireframe (full size)](assets/images/readme/wireframes/meetups-wire.png)
+
+[Signup-wireframe (full size)](assets/images/readme/wireframes/signup-wire.png)
 
 ___
 ## Design
