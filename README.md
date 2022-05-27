@@ -133,7 +133,7 @@ represents trust and tranquillity. In fact, [57% of men and 35% of women say blu
 
 ### Images
 
-The images in this project were sourced from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [iStock](https://www.istockphoto.com). They were specifically selected to correlate with the main website colour palette and increase the aesthetic impact of the design.
+The images in this project were sourced from [Unsplash](https://unsplash.com/) and [iStock](https://www.istockphoto.com). They were specifically selected to correlate with the main website colour palette and increase the aesthetic impact of the design.
 
 ### Visual Effects
 
@@ -387,13 +387,11 @@ However, a layout bug was found, which didn't appear at any other stage.
 
 ## Detected Issues and Resolutions
 
-1. During the testig with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) a bug with the "SIGN UP" button on the Home page was detected. However, I it did not appear on any device, any browser or any screen size during other testing stages. I struggled to "achieve" the same result to be able to resolve it when finally it was detected again on the mobile device with activated accessibility tools. 
+1. During the testig with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) a bug with the "SIGN UP" button on the Home page was detected. However, I it did not appear on any device, any browser or any screen size during other testing stages. I struggled to "achieve" the same result to be able to resolve it when finally it was detected again on the mobile device with activated accessibility tools. Interestingly, my own phone with accessibility tools on did not produce the bug.  
 
 ![Bug](assets/images/readme/bug.png)
 
-
-
-2. There was also detected a warning about contrast 
+The reason of this bug was a padding conflict. It was fixed by reconsidering paddings and margins in the block. I tested it via Toptal Colorfilter, because I was not able to access this bug any other way. 
 ___
 
 # Deployment
@@ -406,7 +404,7 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 4. In the left side menu select `Pages` from `Code and automation` section.
 5. Under the `Source` heading in the dropdown menu select `main`.
 6. A second drop-down menu should remain with the default value `/(root)`.
-7. Press Save.
+7. Press `Save`.
 8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
 9. Click on the link to go to the live deployed page.
 
@@ -435,8 +433,43 @@ The live link can be found [here](https://oks-erm.github.io/sofing).
 ___
 
 # Credits
-3333333
 
+## Content
+
+The concept and the text used on the website are produced by me. Little fragments of the text could be found [here](https://www.trendhunter.com/trends/a-new-extreme-sport-sofing), as they were earlier published by my friend Hernando Gomez Salinas. He tried to start it off as a meme, but it took root only in the Spanish speaking community and not for long. I would like to give it a second chance.
+
+## Media
+
+- hero-image.webp is by @littlehenrabi from [iStock](https://istockphoto.com).
+- training.webp is by @inside-weather from [Unsplash](https://unsplash.com).
+- act1.webp is by Carlos Muchado from [Unsplash](https://unsplash.com).
+- act2.webp is by Franck Boston from [iStock](https://istockphoto.com).
+- act3.webp is by @4x6 from [iStock](https://istockphoto.com).
+- signup-section.webp is by Paul Weaver from [Unsplash](https://unsplash.com).
+- signup.webp is by Alexis Antoine from [Unsplash](https://unsplash.com).
+- meetups.webp is by Ben Lambert from [Unsplash](https://unsplash.com).
+- philosofy.webp is by Guven Gunes from [Unsplash](https://unsplash.com).
+- philosofy1.webp is by Logan Cameron from [Unsplash](https://unsplash.com).
+- philosofy2.webp is by Juan Gomez from [Unsplash](https://unsplash.com).
+- philosofy3.webp is by Alina Levkovich from [Unsplash](https://unsplash.com).
+
+favicon.ico was created by me. 
+
+## Code
+
+- Implementation and utilisation of Flexbox and Grid was assisted by [CSS Tricks](https://css-tricks.com).
+- Code snippets for iplementation of "hamburger menu" were taken from [here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) and [here](https://codepen.io/erikterwan/pen/EVzeRP) and modified.
+- Code snippet for links hover effect is taken from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/) and modified.
+- Code snippet for "Choose your country" field is taken from [here](https://www.technicalkeeda.com/html-tutorials/all-countries-drop-down-list-in-html).
+- Code snippet for speach bubble was taken from [here](https://freefrontend.com/css-speech-bubbles/) and modified.
+- Code snippet for gradient effect for text was taken from [CSS Tricks](https://css-tricks.com/snippets/css/gradient-text/) and modified.
+- Guidance on HTML attributes and common conventions were obtained from [W3Schools](https://www.w3schools.com/) and [Mozilla's Web Documentation](https://developer.mozilla.org/en-US/).
+- Understanding of shadows was obtained from [W3Schools](https://www.w3schools.com/).
+
+## Acknowledgements
+
+I'd like to thank my mentor, Ronan McClelland, for his guidance, moral support, inspiration, invaluable advice and sense of humour.
+Thanks to Slack Community.
 ___
 
 
